@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://v2.klinikcomhmjonimedan.com/assets/css/font/a11/a11.css" />
+    <!-- css styling nota -->
+    <link rel="stylesheet" href="https://v2.klinikcomhmjonimedan.com/assets/bootstrap/css/bootstrap.min.css" />
+
+    <style>
+        @media screen {
+            .content {
+                display: none;
+            }
+        }
+    </style>
+     </head>
+
+<body onload="window.print();">
+    <div class="content">
+        <div class="row" style="margin-left: 10px;">
+            <div class="col-xs-12" style="margin-top:10px;">
+                <h4>KLINIK COM HM JONI</h4>
+            </div>
+            <div class="col-xs-4">
+                <p>
+                    <span>Jalan HM Joni No 55 B Medan                        <br> Telp. 085265676914</span>
+
+                </p>
+            </div>
+            <div class="col-xs-8">
+                <table>
+                    <tr>
+                        <th>Jenis laporan &nbsp; </th>
+                        <th> : </th>
+                        <th> &nbsp;Laporan penjualan</th>
+                    </tr>
+                    <tr>
+                        <th>Periode &nbsp; </th>
+                        <th> : </th>
+                        <th> &nbsp;BULAN INI</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <center><b>TABEL LAPORAN PENJUALAN</b></center>
+        <table class="table table-bordered">
+            <thead>
+                <th>NO</th>
+                <th>KODE TRANSAKSI</th>
+                <th>WAKTU TRANSAKSI</th>
+                <th>NAMA PELANGGAN</th>
+                <th>TOTAL TRANSAKSI</th>
+                <th>TOTAL KEUNTUNGAN</th>
+                <th>METODE PEMBAYARAN</th>
+                <th>CASH / DP</th>
+            </thead>
+            <tbody>
+                                    <tr>
+                        <td>1</td>
+                        <td>PNJ-TOKO1-00514</td>
+                        <td>04-01-2023 12:27:26</td>
+                        <td>Farhan Variasi </td>
+                        <td align="right">135000</td>
+                        <td align="right">53000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">135.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Switch Hub TP-Link LS1005 5P 10/100Mbps</td>
+                                <td>1</td>
+                                <td align="right">150000</td>
+                                <td align="right">68000</td>
+                               
+                                <td align="right" colspan="2">135000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>2</td>
+                        <td>PNJ-TOKO1-00511</td>
+                        <td>04-01-2023 15:15:34</td>
+                        <td>UMUM</td>
+                        <td align="right">20000</td>
+                        <td align="right">10000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">20.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Mouse Optical USB ALL Merek</td>
+                                <td>1</td>
+                                <td align="right">20000</td>
+                                <td align="right">10000</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>3</td>
+                        <td>PNJ-TOKO1-00516</td>
+                        <td>04-01-2023 15:34:15</td>
+                        <td>UMUM</td>
+                        <td align="right">100000</td>
+                        <td align="right">40000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">100.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Casing HDD 2.5 Transparan 3.0</td>
+                                <td>1</td>
+                                <td align="right">100000</td>
+                                <td align="right">40000</td>
+                               
+                                <td align="right" colspan="2">100000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>4</td>
+                        <td>PNJ-TOKO1-00517</td>
+                        <td>04-01-2023 20:17:35</td>
+                        <td>UMUM</td>
+                        <td align="right">90000</td>
+                        <td align="right">57540</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">90.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Lan Belden Meteran</td>
+                                <td>30</td>
+                                <td align="right">90000</td>
+                                <td align="right">57540</td>
+                               
+                                <td align="right" colspan="2">90000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>5</td>
+                        <td>PNJ-TOKO1-00518</td>
+                        <td>05-01-2023 13:59:10</td>
+                        <td>UMUM</td>
+                        <td align="right">55000</td>
+                        <td align="right">24000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">55.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Kabel Eyota USB k11</td>
+                                <td>1</td>
+                                <td align="right">55000</td>
+                                <td align="right">24000</td>
+                               
+                                <td align="right" colspan="2">55000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>6</td>
+                        <td>PNJ-TOKO1-00519</td>
+                        <td>05-01-2023 14:44:24</td>
+                        <td>Muhammad Agus Mustafa</td>
+                        <td align="right">26000</td>
+                        <td align="right">0</td>
+                        <td>
+                            KREDIT                        </td>
+                        <td align="right">0</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Mouse Optical USB ALL Merek</td>
+                                <td>2</td>
+                                <td align="right">40000</td>
+                                <td align="right">20000</td>
+                               
+                                <td align="right" colspan="2">40000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Mousepad Microsoft / Logitech</td>
+                                <td>2</td>
+                                <td align="right">20000</td>
+                                <td align="right">14000</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>7</td>
+                        <td>PNJ-TOKO1-00521</td>
+                        <td>05-01-2023 17:31:08</td>
+                        <td>SMK SWASTA BUDI DARMA INDRAPURA</td>
+                        <td align="right">16975000</td>
+                        <td align="right">4013000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">16.975.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Konektor Rj 45 Belden Ori</td>
+                                <td>2</td>
+                                <td align="right">210000</td>
+                                <td align="right">20000</td>
+                               
+                                <td align="right" colspan="2">210000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Kabel Belden Original</td>
+                                <td>1</td>
+                                <td align="right">1750000</td>
+                                <td align="right">110000</td>
+                               
+                                <td align="right" colspan="2">1750000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>3</td>
+                                <td colspan="2">USB 3.0 TO LAN Usb 3.0 Gigabit Enthernet </td>
+                                <td>3</td>
+                                <td align="right">315000</td>
+                                <td align="right">75000</td>
+                               
+                                <td align="right" colspan="2">315000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>4</td>
+                                <td colspan="2">SSD SATA COLORFIRE 500GB</td>
+                                <td>5</td>
+                                <td align="right">2375000</td>
+                                <td align="right">275000</td>
+                               
+                                <td align="right" colspan="2">2375000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>5</td>
+                                <td colspan="2">Lan Card TP-link TG-3468 Gigabit PCI Express</td>
+                                <td>3</td>
+                                <td align="right">435000</td>
+                                <td align="right">90000</td>
+                               
+                                <td align="right" colspan="2">435000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>6</td>
+                                <td colspan="2">Mouse USB Logitech M90 </td>
+                                <td>65</td>
+                                <td align="right">4225000</td>
+                                <td align="right">1170000</td>
+                               
+                                <td align="right" colspan="2">4225000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>7</td>
+                                <td colspan="2">Hardisk Computer Seagate 500Gb Sata</td>
+                                <td>30</td>
+                                <td align="right">4950000</td>
+                                <td align="right">1650000</td>
+                               
+                                <td align="right" colspan="2">4950000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>8</td>
+                                <td colspan="2">Adaptor Laptop Acer Standart 19V 3.42A</td>
+                                <td>10</td>
+                                <td align="right">850000</td>
+                                <td align="right">350000</td>
+                               
+                                <td align="right" colspan="2">850000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>9</td>
+                                <td colspan="2">Power Supplay SPC 450 Watt</td>
+                                <td>5</td>
+                                <td align="right">675000</td>
+                                <td align="right">175000</td>
+                               
+                                <td align="right" colspan="2">675000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>10</td>
+                                <td colspan="2">Switch HUB 24 port TP LiNK TL SF-1024D </td>
+                                <td>2</td>
+                                <td align="right">1190000</td>
+                                <td align="right">98000</td>
+                               
+                                <td align="right" colspan="2">1190000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>8</td>
+                        <td>PNJ-TOKO1-00522</td>
+                        <td>05-01-2023 18:38:53</td>
+                        <td>Josep </td>
+                        <td align="right">418500</td>
+                        <td align="right">158500</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">418.500</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Adaptor Lenovo Type C 20V- 3.25A</td>
+                                <td>1</td>
+                                <td align="right">300000</td>
+                                <td align="right">150000</td>
+                               
+                                <td align="right" colspan="2">270000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Mouse Logitech Wireless M170</td>
+                                <td>1</td>
+                                <td align="right">165000</td>
+                                <td align="right">55000</td>
+                               
+                                <td align="right" colspan="2">148500</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>9</td>
+                        <td>PNJ-TOKO1-00523</td>
+                        <td>05-01-2023 19:00:23</td>
+                        <td>UMUM</td>
+                        <td align="right">14000</td>
+                        <td align="right">10000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">14.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Pasta Suntik Small</td>
+                                <td>2</td>
+                                <td align="right">14000</td>
+                                <td align="right">10000</td>
+                               
+                                <td align="right" colspan="2">14000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>10</td>
+                        <td>PNJ-TOKO1-00524</td>
+                        <td>05-01-2023 21:26:33</td>
+                        <td>UMUM</td>
+                        <td align="right">55000</td>
+                        <td align="right">24000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">55.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Kabel Eyota USB k11</td>
+                                <td>1</td>
+                                <td align="right">55000</td>
+                                <td align="right">24000</td>
+                               
+                                <td align="right" colspan="2">55000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>11</td>
+                        <td>PNJ-TOKO1-00525</td>
+                        <td>07-01-2023 16:17:46</td>
+                        <td>UMUM</td>
+                        <td align="right">55000</td>
+                        <td align="right">24000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">55.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Kabel Eyota USB k11</td>
+                                <td>1</td>
+                                <td align="right">55000</td>
+                                <td align="right">24000</td>
+                               
+                                <td align="right" colspan="2">55000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>12</td>
+                        <td>PNJ-TOKO1-00526</td>
+                        <td>07-01-2023 16:25:53</td>
+                        <td>Muhammad Agus Mustafa</td>
+                        <td align="right">26000</td>
+                        <td align="right">0</td>
+                        <td>
+                            KREDIT                        </td>
+                        <td align="right">26.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Mouse Optical USB ALL Merek</td>
+                                <td>2</td>
+                                <td align="right">40000</td>
+                                <td align="right">20000</td>
+                               
+                                <td align="right" colspan="2">40000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Mousepad Microsoft / Logitech</td>
+                                <td>2</td>
+                                <td align="right">20000</td>
+                                <td align="right">14000</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>13</td>
+                        <td>PNJ-TOKO1-00527</td>
+                        <td>07-01-2023 16:30:36</td>
+                        <td>Muhammad Agus Mustafa</td>
+                        <td align="right">180000</td>
+                        <td align="right">0</td>
+                        <td>
+                            KREDIT                        </td>
+                        <td align="right">180.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD Sata Techbyte 128 GB</td>
+                                <td>1</td>
+                                <td align="right">450000</td>
+                                <td align="right">290000</td>
+                               
+                                <td align="right" colspan="2">450000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Casing HDD Caddy (SLIM) </td>
+                                <td>1</td>
+                                <td align="right">65000</td>
+                                <td align="right">45000</td>
+                               
+                                <td align="right" colspan="2">65000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>14</td>
+                        <td>PNJ-TOKO1-00528</td>
+                        <td>07-01-2023 16:33:42</td>
+                        <td>UMUM</td>
+                        <td align="right">25000</td>
+                        <td align="right">15500</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">25.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Usb Extention 1.5M </td>
+                                <td>1</td>
+                                <td align="right">25000</td>
+                                <td align="right">15500</td>
+                               
+                                <td align="right" colspan="2">25000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>15</td>
+                        <td>PNJ-TOKO1-00529</td>
+                        <td>07-01-2023 18:36:38</td>
+                        <td>UMUM</td>
+                        <td align="right">10000</td>
+                        <td align="right">7000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">10.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Protector 14 Inci</td>
+                                <td>1</td>
+                                <td align="right">10000</td>
+                                <td align="right">7000</td>
+                               
+                                <td align="right" colspan="2">10000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>16</td>
+                        <td>PNJ-TOKO1-00530</td>
+                        <td>07-01-2023 18:37:41</td>
+                        <td>UMUM</td>
+                        <td align="right">15000</td>
+                        <td align="right">7000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">15.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Male To Male 30Cm </td>
+                                <td>1</td>
+                                <td align="right">15000</td>
+                                <td align="right">7000</td>
+                               
+                                <td align="right" colspan="2">15000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>17</td>
+                        <td>PNJ-TOKO1-00531</td>
+                        <td>07-01-2023 18:38:05</td>
+                        <td>UMUM</td>
+                        <td align="right">15000</td>
+                        <td align="right">7000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">15.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Male To Male 30Cm </td>
+                                <td>1</td>
+                                <td align="right">15000</td>
+                                <td align="right">7000</td>
+                               
+                                <td align="right" colspan="2">15000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>18</td>
+                        <td>PNJ-TOKO1-00532</td>
+                        <td>07-01-2023 18:39:01</td>
+                        <td>UMUM</td>
+                        <td align="right">225000</td>
+                        <td align="right">110000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">225.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Gaming Imperion KG-S10B</td>
+                                <td>1</td>
+                                <td align="right">225000</td>
+                                <td align="right">110000</td>
+                               
+                                <td align="right" colspan="2">225000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>19</td>
+                        <td>PNJ-TOKO1-00533</td>
+                        <td>07-01-2023 18:44:58</td>
+                        <td>UMUM</td>
+                        <td align="right">80000</td>
+                        <td align="right">35000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">80.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Mini Branded Acer/Hp/Asus</td>
+                                <td>1</td>
+                                <td align="right">80000</td>
+                                <td align="right">35000</td>
+                               
+                                <td align="right" colspan="2">80000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>20</td>
+                        <td>PNJ-TOKO1-00534</td>
+                        <td>07-01-2023 19:00:45</td>
+                        <td>UMUM</td>
+                        <td align="right">95000</td>
+                        <td align="right">48000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">95.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Flashdisk Sandisk 16Gb</td>
+                                <td>1</td>
+                                <td align="right">95000</td>
+                                <td align="right">48000</td>
+                               
+                                <td align="right" colspan="2">95000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>21</td>
+                        <td>PNJ-TOKO1-00515</td>
+                        <td>09-01-2023 11:42:48</td>
+                        <td>UMUM</td>
+                        <td align="right">80000</td>
+                        <td align="right">33000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">80.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Gamepad Single Transparan </td>
+                                <td>1</td>
+                                <td align="right">80000</td>
+                                <td align="right">33000</td>
+                               
+                                <td align="right" colspan="2">80000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>22</td>
+                        <td>PNJ-TOKO1-00536</td>
+                        <td>09-01-2023 12:54:05</td>
+                        <td>Rani (Trisakti) </td>
+                        <td align="right">157500</td>
+                        <td align="right">92500</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">157.500</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Adaptor Laptop Acer Kepala Biru 19V 2.15A</td>
+                                <td>1</td>
+                                <td align="right">175000</td>
+                                <td align="right">110000</td>
+                               
+                                <td align="right" colspan="2">157500</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>23</td>
+                        <td>PNJ-TOKO1-00537</td>
+                        <td>09-01-2023 15:48:16</td>
+                        <td>Erinta (Trisakti) </td>
+                        <td align="right">180000</td>
+                        <td align="right">110000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">180.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Adaptor Laptop Asus 19v - 1.75A u/ X202e x200ca x200ma S2</td>
+                                <td>1</td>
+                                <td align="right">200000</td>
+                                <td align="right">130000</td>
+                               
+                                <td align="right" colspan="2">180000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>24</td>
+                        <td>PNJ-TOKO1-00538</td>
+                        <td>09-01-2023 15:56:50</td>
+                        <td>UMUM</td>
+                        <td align="right">30000</td>
+                        <td align="right">17000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">30.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Power Computer</td>
+                                <td>1</td>
+                                <td align="right">30000</td>
+                                <td align="right">17000</td>
+                               
+                                <td align="right" colspan="2">30000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>25</td>
+                        <td>PNJ-TOKO1-00535</td>
+                        <td>09-01-2023 18:51:11</td>
+                        <td>UMUM</td>
+                        <td align="right">80000</td>
+                        <td align="right">28000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">80.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Keyboard Foldable Karet</td>
+                                <td>1</td>
+                                <td align="right">65000</td>
+                                <td align="right">20000</td>
+                               
+                                <td align="right" colspan="2">65000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Kabel Audio AUX 1.5M</td>
+                                <td>1</td>
+                                <td align="right">15000</td>
+                                <td align="right">8000</td>
+                               
+                                <td align="right" colspan="2">15000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>26</td>
+                        <td>PNJ-TOKO1-00541</td>
+                        <td>10-01-2023 14:30:07</td>
+                        <td>Muhammad Agus Mustafa</td>
+                        <td align="right">26000</td>
+                        <td align="right">500</td>
+                        <td>
+                            KREDIT                        </td>
+                        <td align="right">0</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Mouse Optical USB ALL Merek</td>
+                                <td>1</td>
+                                <td align="right">20000</td>
+                                <td align="right">10000</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Mousepad Microsoft / Logitech</td>
+                                <td>2</td>
+                                <td align="right">20000</td>
+                                <td align="right">14000</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>3</td>
+                                <td colspan="2">Mouse Optical USB Eyota</td>
+                                <td>1</td>
+                                <td align="right">20000</td>
+                                <td align="right">10500</td>
+                               
+                                <td align="right" colspan="2">20000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>27</td>
+                        <td>PNJ-TOKO1-00542</td>
+                        <td>10-01-2023 20:55:01</td>
+                        <td>UMUM</td>
+                        <td align="right">30000</td>
+                        <td align="right">14000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">30.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel Lan 5M Cat 6</td>
+                                <td>1</td>
+                                <td align="right">30000</td>
+                                <td align="right">14000</td>
+                               
+                                <td align="right" colspan="2">30000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>28</td>
+                        <td>PNJ-TOKO1-00543</td>
+                        <td>11-01-2023 10:05:16</td>
+                        <td>UMUM</td>
+                        <td align="right">50000</td>
+                        <td align="right">30000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">50.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Kabel HDMI TO VGA</td>
+                                <td>1</td>
+                                <td align="right">50000</td>
+                                <td align="right">30000</td>
+                               
+                                <td align="right" colspan="2">50000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>29</td>
+                        <td>S0001316</td>
+                        <td>03-01-2023 18:27:21</td>
+                        <td>Ibrahim </td>
+                        <td align="right">360000</td>
+                        <td align="right">360000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">0</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD+TS Oppo A5s / A7 / A12 / Realme 3 / 3</td>
+                                <td>1</td>
+                                <td align="right">360000</td>
+                                <td align="right">200000</td>
+                               
+                                <td align="right" colspan="2">360000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>30</td>
+                        <td>S0001324</td>
+                        <td>04-01-2023 18:03:58</td>
+                        <td>Ardianus </td>
+                        <td align="right">360000</td>
+                        <td align="right">360000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">360.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD+TS Oppo A5s / A7 / A12 / Realme 3 / 3</td>
+                                <td>1</td>
+                                <td align="right">360000</td>
+                                <td align="right">227000</td>
+                               
+                                <td align="right" colspan="2">360000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>31</td>
+                        <td>S0001325</td>
+                        <td>05-01-2023 09:56:17</td>
+                        <td>Junaidi </td>
+                        <td align="right">733500</td>
+                        <td align="right">733500</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">733.500</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD 14.0 LED E1 Slim 30pin</td>
+                                <td>1</td>
+                                <td align="right">733500</td>
+                                <td align="right">283500</td>
+                               
+                                <td align="right" colspan="2">733500</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>32</td>
+                        <td>S0001309</td>
+                        <td>05-01-2023 11:09:19</td>
+                        <td>Nestor Ginting </td>
+                        <td align="right">650000</td>
+                        <td align="right">650000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">650.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD Sata Techbyte 256 GB</td>
+                                <td>1</td>
+                                <td align="right">650000</td>
+                                <td align="right">420000</td>
+                               
+                                <td align="right" colspan="2">650000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>33</td>
+                        <td>S0001322</td>
+                        <td>06-01-2023 17:22:40</td>
+                        <td>Samuel </td>
+                        <td align="right">76500</td>
+                        <td align="right">76500</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">150.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Adaptor Laptop Acer Standart 19V 3.42A</td>
+                                <td>1</td>
+                                <td align="right">76500</td>
+                                <td align="right">26500</td>
+                               
+                                <td align="right" colspan="2">76500</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>34</td>
+                        <td>S0001350</td>
+                        <td>07-01-2023 17:18:53</td>
+                        <td>Bapak Sitorus </td>
+                        <td align="right">405000</td>
+                        <td align="right">405000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">405.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD Sata Techbyte 128 GB</td>
+                                <td>1</td>
+                                <td align="right">405000</td>
+                                <td align="right">245000</td>
+                               
+                                <td align="right" colspan="2">405000</td>
+                            </tr>
+                                                    <tr>
+                                                                <td>2</td>
+                                <td colspan="2">Casing HDD Caddy (SLIM) </td>
+                                <td>1</td>
+                                <td align="right">65000</td>
+                                <td align="right">45000</td>
+                               
+                                <td align="right" colspan="2">0</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>35</td>
+                        <td>S0001345</td>
+                        <td>07-01-2023 17:36:43</td>
+                        <td>Bang Hendrik Lesmana  Pasaribu </td>
+                        <td align="right">360000</td>
+                        <td align="right">360000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">360.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Lcd+Ts Vivo Y20/Y201/Y20S</td>
+                                <td>1</td>
+                                <td align="right">391500</td>
+                                <td align="right">277500</td>
+                               
+                                <td align="right" colspan="2">360000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>36</td>
+                        <td>S0001127</td>
+                        <td>09-01-2023 13:59:18</td>
+                        <td>Saor Butar-butar </td>
+                        <td align="right">375000</td>
+                        <td align="right">375000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">475.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD + Touchscreen Samsung A2 Core / A260</td>
+                                <td>1</td>
+                                <td align="right">375300</td>
+                                <td align="right">145300</td>
+                               
+                                <td align="right" colspan="2">375000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>37</td>
+                        <td>S0001349</td>
+                        <td>09-01-2023 15:46:31</td>
+                        <td>Erinta (Trisakti) </td>
+                        <td align="right">405000</td>
+                        <td align="right">405000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">405.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD M.2 SATA 128GB RX7 2PARET Panjang</td>
+                                <td>1</td>
+                                <td align="right">405000</td>
+                                <td align="right">225000</td>
+                               
+                                <td align="right" colspan="2">405000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>38</td>
+                        <td>S0001357</td>
+                        <td>09-01-2023 20:05:54</td>
+                        <td>JImi</td>
+                        <td align="right">350000</td>
+                        <td align="right">350000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">350.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">Lcd+Ts Samsung J4 Plus 2018 J415 / Samsung J6 Plus 2018 J610</td>
+                                <td>1</td>
+                                <td align="right">350000</td>
+                                <td align="right">208000</td>
+                               
+                                <td align="right" colspan="2">350000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>39</td>
+                        <td>S0001359</td>
+                        <td>10-01-2023 10:08:57</td>
+                        <td>Kak Dewi </td>
+                        <td align="right">450000</td>
+                        <td align="right">450000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">450.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD M.2 SATA 128GB RX7 2PARET Panjang</td>
+                                <td>1</td>
+                                <td align="right">450000</td>
+                                <td align="right">290000</td>
+                               
+                                <td align="right" colspan="2">450000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>40</td>
+                        <td>S0001362</td>
+                        <td>10-01-2023 12:05:00</td>
+                        <td>Indra Gultom</td>
+                        <td align="right">405000</td>
+                        <td align="right">405000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">405.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">SSD Sata Techbyte 128 GB</td>
+                                <td>1</td>
+                                <td align="right">405000</td>
+                                <td align="right">245000</td>
+                               
+                                <td align="right" colspan="2">405000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>41</td>
+                        <td>S0001361</td>
+                        <td>10-01-2023 16:00:32</td>
+                        <td>BUDI TAMA</td>
+                        <td align="right">733500</td>
+                        <td align="right">733500</td>
+                        <td>
+                            KREDIT                        </td>
+                        <td align="right">0</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD 14.0 LED E1 Slim 30pin</td>
+                                <td>1</td>
+                                <td align="right">733500</td>
+                                <td align="right">303500</td>
+                               
+                                <td align="right" colspan="2">733500</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                                        <tr>
+                        <td>42</td>
+                        <td>S0001365</td>
+                        <td>10-01-2023 18:46:30</td>
+                        <td>IBRAM MARIO </td>
+                        <td align="right">360000</td>
+                        <td align="right">360000</td>
+                        <td>
+                            CASH                        </td>
+                        <td align="right">360.000</td>
+                    </tr>
+                                            <tr>
+                            <td colspan="8"><i><b>Detail barang</b></i></td>
+                        </tr>
+                        <tr>
+                            <td>No</td>
+                            <td colspan="2">Nama barang</td>
+                            <td>Qty</td>
+                            <td>Harga</td>
+                            <td>Keuntungan</td>
+                            <td colspan="2" align="center">Subtotal</td>
+                        </tr>
+                                                    <tr>
+                                                                <td>1</td>
+                                <td colspan="2">LCD+TS XIAOMI REDMI 5 PLUS Biasa</td>
+                                <td>1</td>
+                                <td align="right">360000</td>
+                                <td align="right">220000</td>
+                               
+                                <td align="right" colspan="2">360000</td>
+                            </tr>
+                                                <tr>
+                            <td colspan="8"></i></td>
+                        </tr>
+                                               
+            
+                <tr>
+                    <td colspan="4">
+                        <center><b>JUMLAH</b></center>
+                    </td>
+                    <td>25271500</td>
+                    <td>10992040</td>
+                    <td></td>
+                    <td>24299500</td>
+                </tr>
+             </tbody>
+        </table>
+    </div>
