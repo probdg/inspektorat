@@ -17,9 +17,9 @@
                         </div>
                     </div>
                     <div class="form-group row validated">
-                        <label for="gangguan_pelayanan" class="col-4 col-form-label"> Gangguan Terhadap Pelayanan</label>
+                        <label for="kategori" class="col-4 col-form-label"> Kategori</label>
                         <div class="col-8">
-                            <textarea name="gangguan_pelayanan" type="text" class='form-control' placeholder="" style="width: 100%;" required></textarea>
+                            <textarea name="kategori" type="text" class='form-control' placeholder="" style="width: 100%;" required></textarea>
                         </div>
                     </div>
 

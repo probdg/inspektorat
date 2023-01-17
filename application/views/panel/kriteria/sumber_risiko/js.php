@@ -76,7 +76,7 @@
             success: function(data) {
                 $('[name="id"]').val(data.id);
                 $('[name="keterangan"]').val(data.keterangan);
-                $('[name="gangguan_pelayanan"]').val(data.gangguan_pelayanan);
+                $('[name="kategori"]').val(data.kategori);
                 $('[name="reg"]').val(data.reg);
 
                 $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
