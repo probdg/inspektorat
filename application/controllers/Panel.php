@@ -9,6 +9,9 @@ class Panel extends CI_Controller
         $this->load->model('ref');
         $this->load->helper('bulan_helper');
         $this->load->helper('convert_helper');
+        if ($this->session->userdata('level') != 1 && $this->session->userdata('token') == '') {
+            redirect('login');
+        }
     }
 
     public function index()
@@ -20,7 +23,8 @@ class Panel extends CI_Controller
             'sess_opd'  => $this->session->userdata('opd'),
             'namaPemda' => $namaPemda,
             'idPemda'   => $idPemda,
-            'content'   => 'panel/index'
+            'content'   => 'panel/index',
+            'js'        => 'panel/js'
         ];
         $this->load->view('layout/content', $data);
     }

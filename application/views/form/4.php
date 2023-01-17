@@ -21,9 +21,8 @@
     <div class="form-group">
         <label class="font-size-h6 font-weight-bolder text-dark">
             Tujuan Strategis *
-
         </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6" />
+        <span class="tujuan"></span>
     </div>
     <!--end::Form Group-->
 
@@ -59,4 +58,7 @@
                 <td>f</td>
             </tr>
         </thead>
+        <tbody>
+
+        </tbody>
     </table>

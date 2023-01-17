@@ -4,7 +4,7 @@
      <label class="font-size-h6 font-weight-bolder text-dark">
          Tahun Penilaian
      </label>
-     <input type="number" maxlength="4" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" placeholder="Ketikan Tahun" value="" readonly />
+     <input type="number" maxlength="4" max="9999" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" value="" readonly />
 
  </div>
  <!--end::Form Group-->
@@ -15,7 +15,7 @@
      <label class="font-size-h6 font-weight-bolder text-dark">
          Nama OPD
      </label>
-     <input type="text" name="pemda" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 pemda" placeholder="Ketikan Tahun" value="<?= $namaPemda ?>" readonly />
+     <input type="text" name="pemda" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 pemda" value="<?= $namaOpd ?>" readonly />
 
  </div>
  <!--begin::Form Group-->

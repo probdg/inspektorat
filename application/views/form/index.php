@@ -42,10 +42,10 @@
     <style>
         thead th,
         thead td {
-            background-color: #dfdfdf;
+            background-color: #eeece1;
             vertical-align: middle !important;
             text-align: center;
-            border: 1px solid;
+            border: 1px solid #000000;
         }
 
 
@@ -100,7 +100,7 @@
                         <div class="topbar">
                             <!--begin::User-->
                             <div class="topbar-item">
-                                <div class="btn btn-icon btn-icon-mobile w-auto btn-success d-flex align-items-center btn-lg px-2" onclick="if (confirm('Anda yakin logout')){return window.location = `<?= base_url('login/out') ?>`;}else{event.stopPropagation(); event.preventDefault();};">
+                                <div class="btn btn-icon btn-icon-mobile w-auto btn-success d-flex align-items-center btn-lg px-2" onclick="logout()">
 
                                     <span class="text-white font-weight-bolder font-size-base d-none d-md-inline mr-4">Hi,</span>
                                     <span class="text-white font-weight-bolder font-size-base d-none d-md-inline mr-5"><?= $this->session->userdata('nama') ?></span>
@@ -116,7 +116,7 @@
                     <!--end::Container-->
                 </div>
                 <!--begin::Content-->
-                <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+                <div class="d-flex flex-column flex-column-fluid" id="kt_content">
 
                     <!--Content area here-->
                     <div class="d-flex flex-column-fluid">
@@ -127,7 +127,7 @@
                                 <!--begin::Aside Top-->
                                 <div class="d-flex flex-column-fluid flex-column px-xxl-30 px-10">
                                     <!--begin: Wizard Nav-->
-                                    <div class="wizard-nav d-flex d-flex justify-content-center pt-10 pt-lg-20 pb-5">
+                                    <div class="wizard-nav d-flex d-flex justify-content-center pt-10 pt-lg-10 pb-5">
                                         <!--begin::Wizard Steps-->
                                         <div class="wizard-steps">
                                             <!--begin::Wizard Step 1 Nav-->
@@ -746,7 +746,7 @@
                                                                 <path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) " />
                                                             </g>
                                                         </svg><!--end::Svg Icon-->
-                                                    </span> Previous
+                                                    </span> Sebelumnya
                                                 </button>
                                             </div>
                                             <div>
@@ -763,7 +763,7 @@
                                                 </button>
 
                                                 <button type="button" class="btn btn-success font-weight-bolder font-size-h6 pl-8 pr-4 py-4 my-3" data-wizard-type="action-next">
-                                                    Next Step
+                                                    Selanjutnya
                                                     <span class="svg-icon svg-icon-md ml-1"><!--begin::Svg Icon | path:assets/media/svg/icons/Navigation/Right-2.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                                 <polygon points="0 0 24 0 24 24 0 24" />
@@ -883,10 +883,86 @@
 <script src="./assets/js/numeral.js"></script>
 
 <script>
+    const logout = () => {
+        Swal.fire({
+            title: "Apakah anda yakin?",
+            text: "Anda akan keluar dari aplikasi ini",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonText: "Ya",
+            cancelButtonText: "Tidak",
+        }).then(result => {
+            if (result.value) {
+                window.location.href = "<?= base_url('login/out') ?>"
+            }
+        });
+    }
     $('.select2').select2();
+    var time;
     const changeTahun = (e) => {
-        console.log(e.value)
         $('.tahun').val(e.value)
+        clearTimeout(time);
+        time = setTimeout(function() {
+            $.ajax({
+                type: "post",
+                url: "<?= base_url('home/getRpjmd') ?>",
+                data: {
+                    tahun: e.value,
+                },
+                dataType: "JSON",
+                success: function(res) {
+                    if (res) {
+                        $('[name=id_rpjmd]').val(res.id)
+                        $('.rpjmd').val(res.nama_periode)
+                        toastr.warning(res.nama_periode);
+                        changeRpjmd(res.id)
+                    } else {
+                        toastr.error('Tidak di temukan RPJMD');
+
+                    }
+                }
+            });
+        }, 500);
+    }
+    const changeRpjmd = (value) => {
+        $.ajax({
+            type: "post",
+            url: "<?= base_url('home/referensi') ?>",
+            data: {
+                rpjmd: value,
+                opd: $('[name=id_opd]').val()
+            },
+            dataType: "JSON",
+            success: function(res) {
+                $.each(res.misi, function(i, value) {
+                    $('.misi').append('<p>' + value.no_urut + '.' + value.misi + '</p>')
+                });
+                $.each(res.sasaran, function(i, value) {
+                    $('.sasaran').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
+                });
+                $.each(res.tujuan, function(i, value) {
+                    $('.tujuan').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
+                });
+            }
+        });
+        $.ajax({
+            type: "post",
+            url: "<?= base_url('home/rpjmd_opd') ?>",
+            data: {
+                opd: $('[name=id]').val(),
+                rpjmd: value,
+            },
+            dataType: "JSON",
+            success: function(res) {
+                $.each(res.sasaran, function(i, value) {
+                    $('.sasaran_opd').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
+                });
+                $.each(res.tujuan, function(i, value) {
+                    $('.tujuan_opd').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
+                });
+
+            }
+        });
     }
 
     function addOtherForm() {

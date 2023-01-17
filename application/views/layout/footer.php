@@ -63,31 +63,44 @@
 <!--end::Global Config-->
 
 <!--begin::Global Theme Bundle(used by all pages)-->
-<script src="./assets/plugins/global/plugins.bundle.js"></script>
-<script src="./assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-<script src="./assets/js/scripts.bundle.js"></script>
-<script src="./assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="./assets/js/pages/crud/datatables/extensions/responsive.min.js"></script>
+<script src="assets/plugins/global/plugins.bundle.js"></script>
+<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+<script src="assets/js/scripts.bundle.js"></script>
+<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="assets/js/pages/crud/datatables/extensions/responsive.min.js"></script>
 <!--end::Global Theme Bundle-->
 
 <!--begin::Page Vendors(used by this page)-->
-<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
 <!--end::Page Vendors-->
 
 <!--begin::Page Scripts(used by this page)-->
-<script src="./assets/js/pages/custom/wizard/wizard-5.js"></script>
-<!--end::Page Scripts-->
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="./assets/js/pages/widgets.js"></script>
-<script src="./assets/js/sweetalert.min.js"></script>
-<script src="./assets/js/numeral.js"></script>
-
+<script src="assets/js/pages/widgets.js"></script>
+<script src="assets/js/sweetalert.min.js"></script>
+<script src="assets/js/numeral.js"></script>
+<?php if (isset($js)) : ?>
+    <?php $this->load->view($js); ?>
+<?php endif ?>
 <script>
     $('.select2').select2();
     const changeTahun = (e) => {
-        console.log(e.value)
         $('.tahun').val(e.value)
+    }
+    const logout = () => {
+        Swal.fire({
+
+            title: "Apakah anda yakin?",
+            text: "Anda akan keluar dari aplikasi ini",
+            icon: "question",
+            showCancelButton: true,
+
+            confirmButtonText: "Ya",
+            cancelButtonText: "Tidak",
+        }).then(result => {
+            if (result.value) {
+                window.location.href = "<?= base_url('login/out') ?>"
+            }
+        });
     }
 
     function addOtherForm() {

@@ -3,7 +3,7 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             Nama Pemda *
         </label>
-        <input type="text" name="pemda" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 pemda" placeholder="Ketikan Tahun" value="<?= $namaPemda ?>" readonly />
+        <input type="text" name="pemda" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 pemda" value="<?= $namaPemda ?>" readonly />
 
     </div>
     <!--end::Form Group-->
@@ -13,7 +13,7 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             Tahun Penilaian *
         </label>
-        <input type="number" maxlength="4" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" placeholder="Ketikan Tahun" value="" readonly />
+        <input type="number" maxlength="4" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" readonly />
     </div>
     <!--end::Form Group-->
 
@@ -22,7 +22,7 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             Periode yang dinilai *
         </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" value="" />
+        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 rpjmd" value="" readonly />
     </div>
     <!--end::Form Group-->
 
@@ -31,7 +31,7 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             Urusan Pemerintahan *
         </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" value="" />
+        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6" value="" />
     </div>
     <!--end::Form Group-->
     <!--begin::Form Group-->
@@ -39,7 +39,8 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             OPD yang dinilai *
         </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" value="" />
+        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6" value="<?= $namaOpd ?>" readonly />
+
     </div>
     <!--end::Form Group-->
 
@@ -48,7 +49,7 @@
         <label class="font-size-h6 font-weight-bolder text-dark">
             Sumber Data*
         </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" value="" />
+        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 sumber_data" value="" />
     </div>
     <!--end::Form Group-->
     <div class="table-responsive">
@@ -57,11 +58,11 @@
 
             <tr>
                 <th>Tujuan Strategis</th>
-                <th colspan="3"></th>
+                <th colspan="3" class="tujuan_opd"></th>
             </tr>
             <tr>
                 <th>Sasaran Strategis</th>
-                <th colspan="3"></th>
+                <th colspan="3" class="sasaran_opd"></th>
             </tr>
             <tr>
                 <th>IKU Renstra OPD</th>
@@ -76,13 +77,13 @@
             <tr>
                 <th>Tujuan, Sasaran, IKU dan Program yang akan dilakukan penilaian risiko</th>
                 <th colspan="3">
-                    Tujuan Strategis :
+                    Tujuan Strategis :<br>
 
-                    Sasaran Strategis:
+                    Sasaran Strategis:<br>
 
-                    IKU Strategis:
+                    IKU Strategis:<br>
 
-                    Program:
+                    Program:<br>
 
                 </th>
             </tr>

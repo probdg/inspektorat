@@ -1,7 +1,8 @@
-<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
+<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed bg-success">
     <!--begin::Logo-->
-    <a href="/metronic/demo1/index.html">
-        <img alt="Logo" src="/metronic/theme/html/demo1/dist/assets/media/logos/logo-light.png">
+    <a class="text-white" href="<?= base_url() ?>">
+        PEMKAB SUMEDANG
+        <!-- <img alt="Logo" src="/metronic/theme/html/demo1/dist/assets/media/logos/logo-light.png"> -->
     </a>
     <!--end::Logo-->
     <!--begin::Toolbar-->
@@ -12,7 +13,7 @@
         </button>
         <!--end::Header Menu Mobile Toggle-->
         <!--begin::Topbar Mobile Toggle-->
-        <button class="btn btn-hover-text-primary p-0 ml-2" id="kt_header_mobile_topbar_toggle">
+        <button class="btn btn-hover-text-darken  p-0 ml-2" id="kt_header_mobile_topbar_toggle">
             <span class="svg-icon svg-icon-xl">
                 <!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/User.svg-->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
