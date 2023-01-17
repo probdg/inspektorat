@@ -82,7 +82,7 @@
                 $('[name="no_urut"]').val(data.no_urut);
 
                 $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-                $('.modal-title').text('Edit User Panel'); // Set title to Bootstrap modal title
+                $('.modal-title').text('Edit Tujuan Strategis'); // Set title to Bootstrap modal title
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 Swal.fire("Gagal", "Gagal Mendapatkan data", "error");

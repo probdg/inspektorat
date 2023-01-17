@@ -15,8 +15,9 @@
 
             // Load data for the table's content from an Ajax source
             "ajax": {
-                "url": '<?= base_url('opd/dat_list') ?>',
+                "url": '<?= base_url('kriteria/tuntutan_hukum/dat_list') ?>',
                 "type": "POST",
+
 
             },
 
@@ -50,7 +51,11 @@
 
     function reset() {
         $('#form')[0].reset(); // reset form on modals
-        $('.text-danger').empty(); // clear error string
+        $('[name="username"]').removeAttr('readonly');
+        $('#cek_label').show();
+        $('.form-control ,.custom-file-input').removeClass('is-invalid'); // clear error class
+        $('.form-control ,.custom-file-input').removeClass('is-valid'); // clear error class
+        $('.invalid-feedback').empty(); // clear error string
         $('#label-image').text('Upload image (PNG,JPEG,JPG Max 4Mb)'); // label image upload
         $('#image-preview').text('(No image)');
     }
@@ -64,15 +69,19 @@
         $('#btnSave').text('Perbaharui'); //change button text
         //Ajax Load data from ajax
         await $.ajax({
-            url: '<?= base_url('opd/edit/') ?>' + id,
+            url: '<?= base_url('kriteria/tuntutan_hukum/edit/') ?>' + id,
             type: "GET",
             async: false,
             dataType: "JSON",
             success: function(data) {
                 $('[name="id"]').val(data.id);
-                $('[name="nama_opd"]').val(data.nama_opd);
+                $('[name="keterangan"]').val(data.keterangan);
+                $('[name="level_dampak"]').val(data.level_dampak);
+                $('[name="reg"]').val(data.reg);
+                $('[name="tuntutan_hukum"]').val(data.tuntutan_hukum);
+
                 $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-                $('.modal-title').text('Edit OPD'); // Set title to Bootstrap modal title
+                $('.modal-title').text('Edit Kriteria Tuntutan Hukum'); // Set title to Bootstrap modal title
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 Swal.fire("Gagal", "Gagal Mendapatkan data", "error");
@@ -84,7 +93,7 @@
         $('#btnSave').text('Menyimpan...'); //change button text
         $('#btnSave').attr('disabled', true); //set button disable
         var url;
-        url = '<?= base_url('opd/save') ?>';
+        url = '<?= base_url('kriteria/tuntutan_hukum/save') ?>';
         var formData = new FormData($('#form')[0]);
         $.ajax({
             url: url,
@@ -102,21 +111,12 @@
                     reload_table();
 
                 } else {
-                    $.each(data.messages, function(key, value) {
-                        const element = $('[name ="' + key + '"]');
-                        element.closest('div.form-group')
-                            .addClass('is-invalid')
-                            .find('.text-danger')
-                            .remove();
-                        if (element.parents('.input-group').length) {
-                            $('.div' + key).html(value);
-                            console.log(element.parents('.input-group').length);
-                        } else if (element.prop("tagName") == "select") {
-                            element.next().after(value)
-                        } else {
-                            element.after(value);
-                        }
-                    });
+                    for (var i = 0; i < data.inputerror.length; i++) {
+
+                        $('[name="' + data.inputerror[i] + '"]').addClass('is-invalid'); //select parent twice to select div form-group class and add m--font-danger class
+                        $('[name="' + data.inputerror[i] + '"]').next().text(data.error_string[i]); //select span help-block class set text error string
+
+                    }
 
                 }
                 $('#btnSave').text('Simpan'); //change button text
@@ -139,17 +139,17 @@
 
     function _delete(id, nama) {
         Swal.fire({
-            title: "Anda yakin menghapus " + nama + " ?",
+            title: "Anda yakin menghapus ?",
             text: "anda tidak akan bisa mengembalikan data!",
             icon: "question",
-            showCancelButton: true,
             confirmButtonText: "Ya, Hapus data!",
             cancelButtonText: "Tidak, Batalkan hapus!",
+            showCancelButton: true,
 
         }).then(result => {
             if (result.value) {
                 $.ajax({
-                    url: '<?= base_url('opd/delete/') ?>' + id,
+                    url: '<?= base_url('kriteria/tuntutan_hukum/delete/') ?>' + id,
                     type: "POST",
                     dataType: "JSON",
                     success: function(data) {
