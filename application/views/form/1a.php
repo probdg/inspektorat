@@ -27,7 +27,7 @@
         File di dukung .xls</label>
     <div></div>
     <div class="custom-file">
-        <input type="file" accept=".xls" class="custom-file-input" id="customFile">
+        <input type="file" accept=".xls" name="fileExcel" class=" custom-file-input" id="customFile">
         <label class="custom-file-label" for="customFile">Unggah file</label>
     </div>
 </div>
