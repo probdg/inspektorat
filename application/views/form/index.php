@@ -901,6 +901,7 @@
     var time;
     const changeTahun = (e) => {
         $('.tahun').val(e.value)
+
         clearTimeout(time);
         time = setTimeout(function() {
             $.ajax({
@@ -916,6 +917,19 @@
                         $('.rpjmd').val(res.nama_periode)
                         toastr.warning(res.nama_periode);
                         changeRpjmd(res.id)
+                        $.ajax({
+                            type: "post",
+                            url: "<?= base_url('home/loadResponden') ?>",
+                            data: {
+                                tahun: e.value,
+                                id_opd: $('[name=id]').val()
+                            },
+                            dataType: "html",
+                            success: function(response) {
+                                $('#responden').html(response);
+                            }
+                        });
+
                     } else {
                         toastr.error('Tidak di temukan RPJMD');
 
@@ -925,6 +939,7 @@
         }, 500);
     }
     const changeRpjmd = (value) => {
+
         $.ajax({
             type: "post",
             url: "<?= base_url('home/referensi') ?>",
@@ -932,9 +947,13 @@
                 rpjmd: value,
                 opd: $('[name=id_opd]').val()
             },
+            async: false,
+
             dataType: "JSON",
             success: function(res) {
+                $('.misi , .sasaran , .tujuan').html('');
                 $.each(res.misi, function(i, value) {
+
                     $('.misi').append('<p>' + value.no_urut + '.' + value.misi + '</p>')
                 });
                 $.each(res.sasaran, function(i, value) {
@@ -943,17 +962,21 @@
                 $.each(res.tujuan, function(i, value) {
                     $('.tujuan').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
                 });
+
             }
         });
         $.ajax({
             type: "post",
             url: "<?= base_url('home/rpjmd_opd') ?>",
+            async: false,
             data: {
                 opd: $('[name=id]').val(),
                 rpjmd: value,
             },
             dataType: "JSON",
             success: function(res) {
+                $('.sasaran_opd , .tujuan_opd').html('');
+
                 $.each(res.sasaran, function(i, value) {
                     $('.sasaran_opd').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
                 });
@@ -964,6 +987,38 @@
             }
         });
     }
+    $('#upload1a').on('click', function() {
+        var file_data = $('#fileExcel')[0].files;
+        var form = new FormData();
+        form.append('fileExcel', file_data[0]);
+        form.append('tahun', $('[name=tahun]').val());
+        form.append('nama_opd', $('[name=pemda]').val());
+        form.append('pemda', 'PEMERINTAH DAERAH KABUPATEN SUMEDANG');
+        form.append('id_opd', $('[name=id]').val());
+        form.append('rpjmd', $('[name=id_rpjmd]').val());
+
+        var settings = {
+            "url": "<?= base_url('home/import') ?>",
+            "method": "POST",
+            "timeout": 0,
+            "processData": false,
+            "mimeType": "multipart/form-data",
+            "contentType": false,
+            "data": form
+        };
+
+        $.ajax(settings).done(function(response) {
+            if (response.status) {
+                loadResult()
+                toastr.success(response.message);
+
+            } else {
+                toastr.error(response.message);
+            }
+        });
+    });
+
+
 
     function addOtherForm() {
         var parent = document.getElementById('form-parent');
@@ -986,7 +1041,34 @@
                                     <input type="text" class="form-control"
                                         placeholder="Ketikan Klasifikasi" />
                                 </div>
+                                <div class="form-group">
+                <label>
+                    Nilai
+                </label>
+                <div class="radio-inline d-flex justify-content-around">
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="1" />
+                        <span></span>
+                        1
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="2" />
+                        <span></span>
+                        2
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="3" />
+                        <span></span>
+                        3
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="4" />
+                        <span></span>
+                        4
+                    </label>
+                </div>
                             </div>
+                            
                         </div>`;
         parent.insertAdjacentHTML('beforeend', child);
     }

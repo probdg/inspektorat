@@ -34,6 +34,35 @@
                 <label>Klasifikasi</label>
                 <input type="text" class="form-control" placeholder="Ketikan Klasifikasi" />
             </div>
+            <div class="form-group">
+                <label>
+                    Nilai
+                </label>
+                <div class="radio-inline d-flex justify-content-around">
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="1" />
+                        <span></span>
+                        1
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="2" />
+                        <span></span>
+                        2
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="3" />
+                        <span></span>
+                        3
+                    </label>
+                    <label class="radio radio-lg radio-outline">
+                        <input type="radio" name="nilai" value="4" />
+                        <span></span>
+                        4
+                    </label>
+                </div>
+                <!-- <span class="form-text text-muted"></span> -->
+            </div>
+            <!--end::Form Group-->
         </div>
     </div>
 </div>
