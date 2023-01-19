@@ -231,8 +231,15 @@ class Home extends CI_Controller
                     $this->modus($h1), $this->modus($h1)
 
                 ];
-                $question = $this->db->get_where('c_f1a')->result_array();
+                $question = $this->db->get('c_f1a')->result_array();
                 $i = 0;
+                $check = $this->db->get_where('f1a_answers', ['tahun_penilaian' => $this->input->post('tahun'), 'opd_id' => $this->input->post('id_opd')])->num_rows();
+                if ($check > 0) {
+                    $this->db->delete(
+                        'f1a_answers',
+                        array('tahun_penilaian' => $this->input->post('tahun'), 'opd_id' => $this->input->post('id_opd'))
+                    );
+                }
                 foreach ($question as $q) {
                     $modus = $dataModus[$i];
                     $data = [

@@ -1004,17 +1004,25 @@
             "processData": false,
             "mimeType": "multipart/form-data",
             "contentType": false,
+
             "data": form
         };
 
-        $.ajax(settings).done(function(response) {
-            if (response.status) {
-                loadResult()
-                toastr.success(response.message);
+        $.ajax(settings).done(function(obj) {
+            $.ajax({
+                type: "post",
+                url: "<?= base_url('home/loadResponden') ?>",
+                data: {
+                    tahun: $('[name=tahun]').val(),
+                    id_opd: $('[name=id]').val()
+                },
+                dataType: "html",
+                success: function(response) {
+                    $('#responden').html(response);
+                }
+            });
+            toastr.success('Berhasil di import');
 
-            } else {
-                toastr.error(response.message);
-            }
         });
     });
 
