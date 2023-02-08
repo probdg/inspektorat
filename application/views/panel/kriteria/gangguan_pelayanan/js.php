@@ -111,12 +111,21 @@
                     reload_table();
 
                 } else {
-                    for (var i = 0; i < data.inputerror.length; i++) {
-
-                        $('[name="' + data.inputerror[i] + '"]').addClass('is-invalid'); //select parent twice to select div form-group class and add m--font-danger class
-                        $('[name="' + data.inputerror[i] + '"]').next().text(data.error_string[i]); //select span help-block class set text error string
-
-                    }
+                    $.each(data.messages, function(key, value) {
+                        const element = $('[name ="' + key + '"]');
+                        element.closest('div.form-group')
+                            .addClass('is-invalid')
+                            .find('.text-danger')
+                            .remove();
+                        if (element.parents('.input-group').length) {
+                            $('.div' + key).html(value);
+                            console.log(element.parents('.input-group').length);
+                        } else if (element.prop("tagName") == "select") {
+                            element.next().after(value)
+                        } else {
+                            element.after(value);
+                        }
+                    });
 
                 }
                 $('#btnSave').text('Simpan'); //change button text

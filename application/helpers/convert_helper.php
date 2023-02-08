@@ -47,85 +47,71 @@
             return $new_data;
         }
     }
-    if (!function_exists('getRomawi')) {
-
-        function getRomawi($bln)
+    if (!function_exists('str_to_number')) {
+        function str_to_number($string)
         {
-
-            switch ($bln) {
-
-                case 'A':
-
-                    return "I";
-
-                    break;
-
-                case 'B':
-
-                    return "II";
-
-                    break;
-
-                case 'C':
-
-                    return "III";
-
-                    break;
-
-                case 'D':
-
-                    return "IV";
-
-                    break;
-
-                case 'E':
-
-                    return "V";
-
-                    break;
-
-                case 'F':
-
-                    return "VI";
-
-                    break;
-
-                case 'G':
-
-                    return "VII";
-
-                    break;
-
-                case 'H':
-
-                    return "VIII";
-
-                    break;
-
-                case 'I':
-
-                    return "IX";
-
-                    break;
-
-                case 'J':
-
-                    return "X";
-
-                    break;
-
-                case 'K':
-
-                    return "XI";
-
-                    break;
-
-                case 'L':
-
-                    return "XII";
-
-                    break;
+            $convertion = [
+                'a' => 1,
+                'b' => 2,
+                'c' => 3,
+                'd' => 4,
+                'e' => 5,
+                'f' => 6,
+                'g' => 7,
+                'h' => 8,
+                'i' => 9,
+                'j' => 0
+            ];
+            $string     = strtolower($string);
+            $array_data = str_split($string);
+            $new_data   = '';
+            foreach ($array_data as  $value) {
+                $new_data .= $convertion[$value] . "";
             }
+            return $new_data;
+        }
+    }
+    if (!function_exists('celah')) {
+        function celah($string)
+        {
+            $convertion = [
+                '1' => '(1) Kebijakan dan Prosedur pengendalian sudah dilakukan, namun belum mampu menangani risiko yang teridentifikasi',
+                '2' => '(2) Prosedur pengendalian belum/tidak dapat dilaksanakan',
+                '3' => '(3) Kebijakan belum diikuti dengan prosedur baku yang jelas',
+                '4' => '(4) Kebijakan dan prosedur yang ada tidak sesuai dengan peraturan diatasnya'
+            ];
+            $string     = strtolower($string);
+            $array_data = str_split($string);
+            $new_data   = '';
+            foreach ($array_data as  $value) {
+                $new_data .= $convertion[$value] . "";
+            }
+            return $new_data;
+        }
+    }
+    if (!function_exists('getRomawi')) {
+        /**
+         * @param int $number
+         * @return string
+         */
+        function getRomawi($number)
+        {
+            $map = array(
+                'M' => 1000, 'CM' => 900, 'D' => 500, 'CD' => 400,
+                'C' => 100, 'XC' => 90, 'L' => 50, 'XL' => 40,
+                'X' => 10, 'IX' => 9, 'V' => 5, 'IV' => 4, 'I' => 1
+            );
+            $returnValue = '';
+            while ($number > 0) {
+                foreach ($map as $roman => $int) {
+                    if ($number >= $int) {
+                        $number -= $int;
+                        $returnValue .= $roman;
+                        break;
+                    }
+                }
+            }
+            return $returnValue;
         }
     }
     ?>

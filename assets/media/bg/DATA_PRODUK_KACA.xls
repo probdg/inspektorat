@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA PRODUK</title>
+    <!--begin::Fonts-->
+    <!-- <link rel="stylesheet" href="https://abadikacasumedang.com/assets/css/font/a11/a11.css" /> -->
+    <!-- css styling nota -->
+    <!-- <link rel="stylesheet" href="https://abadikacasumedang.com/assets/css/nota.css" /> -->
+    <!-- <link rel="stylesheet" href="https://abadikacasumedang.com/assets/bootstrap/css/bootstrap.min.css" /> -->
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        body {
+            font-size: small;
+            size: A4 landscape !important;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+
+        .solid-border {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body onload="window.print();">
+    <div id="receiptData">
+
+        <div class="content">
+            <table border="1" style="table-layout:separated;font-family:'Courier New', Courier, monospace;width:100%">
+                <thead>
+                    <tr>
+                        <th colspan="12" style="align-content: center;">
+                            <h3 style="text-align: center;">Data Produk Kaca</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="solid-border" align="center">No</th>
+                        <th class="solid-border" align="center">Nama Item</th>
+                        <th class="solid-border" align="center">Harga Modal / Meter</th>
+                        <th class="solid-border" align="center">Harga Modal / Lembar</th>
+                        <th class="solid-border" align="center">Disc > Harga Jual / Meter</th>
+                        <th class="solid-border" align="center">Harga Jual / Meter</th>
+                        <th class="solid-border" align="center">Harga Jual Proses</th>
+                        <th class="solid-border" align="center">Disc > Harga Jual / Lembar</th>
+                        <th class="solid-border" align="center">Harga Jual / Lembar</th>
+                        <th class="solid-border" align="center">Stok</th>
+                    </tr>
+                </thead>
+                <tbody>
+                                            <tr>
+                            <td class="solid-border" align="center">1</td>
+                            <td class="solid-border">Bevel Kepingan <= 40 x 40</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border" align="center">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">2</td>
+                            <td class="solid-border">Jasa Potong Dekorasi</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border" align="center">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">3</td>
+                            <td class="solid-border">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">70.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">130.067</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">105.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">195.100</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">146.325</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">4</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">100.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">185.810</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">150.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">278.715</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">209.037</td>
+                                                        <td class="solid-border">17</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">5</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">100.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">206.450</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">150.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">309.675</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">232.257</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">6</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 122 x 152 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">167.229</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">250.844</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">188.133</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">7</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">85.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">379.041</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">127.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">568.562</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">426.422</td>
+                                                        <td class="solid-border">16</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">8</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">94.552</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">615.004</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">141.828</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">922.506</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">691.880</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">9</td>
+                            <td class="solid-border">MULIA POLOS 6 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">150.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">668.895</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">225.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.003.342</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">752.507</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">10</td>
+                            <td class="solid-border">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">140.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">910.616</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">210.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.365.924</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.024.443</td>
+                                                        <td class="solid-border">17</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">11</td>
+                            <td class="solid-border">ASAHI ES 5 mm 122 x 214 2.6013</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">124.938</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">325.001</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">187.407</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">487.501</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">365.626</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">12</td>
+                            <td class="solid-border">ASAHI POLOS 6 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">145.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">943.138</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">217.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.414.707</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.061.031</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">13</td>
+                            <td class="solid-border">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">180.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.170.792</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">270.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.756.188</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.317.141</td>
+                                                        <td class="solid-border">11</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">14</td>
+                            <td class="solid-border">MULIA POLOS 10 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">250.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.626.100</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">375.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.439.150</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.829.363</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">15</td>
+                            <td class="solid-border">MULIA POLOS 12 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">290.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.886.276</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">435.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.829.414</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.122.061</td>
+                                                        <td class="solid-border">4</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">16</td>
+                            <td class="solid-border">MULIA POLOS 12 mm 366 x 244 8.9187</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">320.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.853.984</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">480.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">4.280.976</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">3.210.732</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">17</td>
+                            <td class="solid-border">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">72.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">133.783</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">108.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">200.674</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">150.506</td>
+                                                        <td class="solid-border">120</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">18</td>
+                            <td class="solid-border">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">82.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">182.835</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">123.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">274.252</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">205.689</td>
+                                                        <td class="solid-border">57</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">19</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 92 x 203 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">110.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">204.391</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">165.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">306.586</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">229.940</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">20</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">110.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">227.095</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">165.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">340.642</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">255.482</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">21</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">167.229</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">250.844</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">188.133</td>
+                                                        <td class="solid-border">74</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">22</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">200.673</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">301.010</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">225.758</td>
+                                                        <td class="solid-border">9</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">23</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">110.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">265.705</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">165.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">398.558</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">298.919</td>
+                                                        <td class="solid-border">10</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">24</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">92.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">410.255</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">138.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">615.382</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">461.537</td>
+                                                        <td class="solid-border">37</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">25</td>
+                            <td class="solid-border">ASAHI RIBEN 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">102.239</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">665.003</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">153.358</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">997.504</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">748.128</td>
+                                                        <td class="solid-border">2</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">26</td>
+                            <td class="solid-border">MULIA CERMIN 2 mm 92 x 122 1.1148</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">69.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">76.921</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">103.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">115.381</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">86.536</td>
+                                                        <td class="solid-border">96</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">27</td>
+                            <td class="solid-border">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">105.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">234.118</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">157.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">351.177</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">263.383</td>
+                                                        <td class="solid-border">116</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">28</td>
+                            <td class="solid-border">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">170.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">758.081</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">255.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.137.121</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">852.841</td>
+                                                        <td class="solid-border">12</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">29</td>
+                            <td class="solid-border">MULIA CERMIN 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">158.355</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.030.004</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">237.532</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.545.006</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.158.755</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">30</td>
+                            <td class="solid-border">SMJ CERMIN 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">149.130</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">970.001</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">223.695</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.455.001</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.091.251</td>
+                                                        <td class="solid-border">2</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">31</td>
+                            <td class="solid-border">MULIA CERMIN BROWN 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">310.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.016.364</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">465.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">3.024.546</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.268.410</td>
+                                                        <td class="solid-border">5</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">32</td>
+                            <td class="solid-border">ONE WAY 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">285.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.270.901</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">427.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.906.351</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.429.764</td>
+                                                        <td class="solid-border">7</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">33</td>
+                            <td class="solid-border">LIGHT GREEN 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">130.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">845.572</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">195.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.268.358</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">951.269</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">34</td>
+                            <td class="solid-border">MULIA RAINDOWN 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">160.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">713.488</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">240.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.070.232</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">802.674</td>
+                                                        <td class="solid-border">14</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">35</td>
+                            <td class="solid-border">MULIA EURO GREY 5 mm 122 x 152 1.8581</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">110.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">204.391</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">165.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">306.586</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">229.940</td>
+                                                        <td class="solid-border">18</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">36</td>
+                            <td class="solid-border">MULIA EURO GREY 8 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">280.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.821.232</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">420.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.731.848</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.048.886</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">37</td>
+                            <td class="solid-border">ASAHI DARK BLUE 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">150.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">668.895</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">225.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.003.342</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">752.507</td>
+                                                        <td class="solid-border">8</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">38</td>
+                            <td class="solid-border">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">64.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">142.701</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">96.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">214.052</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">160.539</td>
+                                                        <td class="solid-border">116</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">39</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">83.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">185.065</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">124.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">277.598</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">208.199</td>
+                                                        <td class="solid-border">62</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">40</td>
+                            <td class="solid-border">ASAHI POLOS 6 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">160.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">713.488</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">240.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.070.232</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">802.674</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">41</td>
+                            <td class="solid-border">ASAHI POLOS 10 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">222.387</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.446.494</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">333.580</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.169.741</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.627.306</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">42</td>
+                            <td class="solid-border">MULIA RIBEN 8 mm  305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">265.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.723.666</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">397.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.585.499</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.939.125</td>
+                                                        <td class="solid-border">1</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">43</td>
+                            <td class="solid-border">MULIA ES 5 mm 122 x 214 2.6013</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">145.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">377.189</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">217.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">565.783</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">424.338</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">44</td>
+                            <td class="solid-border">MULIA ES 5 mm 244 x 183 4.4593</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">140.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">624.302</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">210.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">936.453</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">702.340</td>
+                                                        <td class="solid-border">11</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">45</td>
+                            <td class="solid-border">MULIA BROWN 5 mm 244 x 152 3.7161</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">149.800</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">556.672</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">224.700</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">835.008</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">626.256</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">46</td>
+                            <td class="solid-border">MULIA GREEN 8 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">300.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.951.320</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">450.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.926.980</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.195.235</td>
+                                                        <td class="solid-border">2</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">47</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">83.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">154.222</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">124.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">231.333</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">173.500</td>
+                                                        <td class="solid-border">8</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">48</td>
+                            <td class="solid-border">ASAHI POLOS 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">85.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">552.874</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">127.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">829.311</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">621.984</td>
+                                                        <td class="solid-border">5</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">49</td>
+                            <td class="solid-border">MULIA POLOS 10 mm 305 x 214 6.5044 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">230.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.496.012</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">345.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.244.018</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.683.014</td>
+                                                        <td class="solid-border">5</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">50</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 92 x 203 1.8581 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">167.229</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">250.843</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">188.133</td>
+                                                        <td class="solid-border">58</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">51</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 102 x 203 2.0645 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">185.805</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">278.707</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">209.031</td>
+                                                        <td class="solid-border">58</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">52</td>
+                            <td class="solid-border">MULIA BROWN 5 mm 330 x 214 7.0451</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">240.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.690.824</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">360.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.536.236</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.902.177</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">53</td>
+                            <td class="solid-border">MULIA GLASSTONE WHITE 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">220.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.430.968</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">330.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.146.452</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.609.839</td>
+                                                        <td class="solid-border">4</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">54</td>
+                            <td class="solid-border">MULIA EURO GREY 8 mm 321 x 214 6.8284</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">360.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.458.224</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">540.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">3.687.336</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.765.502</td>
+                                                        <td class="solid-border">4</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">55</td>
+                            <td class="solid-border">MULIA EURO GREY 5 mm 122 x 152 1.8581 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">95.122</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">176.746</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">142.683</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">265.119</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">198.840</td>
+                                                        <td class="solid-border">2</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">56</td>
+                            <td class="solid-border">MULIA GLASSTONE BLACK 5 mm 305 x 214 6.5044</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">230.003</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.496.032</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">345.004</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">2.244.048</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">1.683.036</td>
+                                                        <td class="solid-border">4</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">57</td>
+                            <td class="solid-border">ASAHI POLOS 5 mm 102 x 203 2.0645</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">77.985</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">161.000</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">116.977</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">241.500</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">181.125</td>
+                                                        <td class="solid-border">1</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">58</td>
+                            <td class="solid-border">MULIA ES 3 mm 122 x 183 2.2297</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">54.882</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">122.370</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">82.323</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">183.555</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">137.667</td>
+                                                        <td class="solid-border">14</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">59</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">83.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">171.353</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">124.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">257.029</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">192.772</td>
+                                                        <td class="solid-border">35</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">60</td>
+                            <td class="solid-border">Etsa Sudut</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border" align="center"></td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">61</td>
+                            <td class="solid-border">Etsa Sudut</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border" align="center"></td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">62</td>
+                            <td class="solid-border">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">64.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">118.918</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">96.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">178.377</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">133.783</td>
+                                                        <td class="solid-border">77</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">63</td>
+                            <td class="solid-border">Jasa Potong Kaca</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border" align="center"></td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">0</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">64</td>
+                            <td class="solid-border">MULIA POLOS 5 mm 92 x 203 1.8581 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">83.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">154.222</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">124.500</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">231.333</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">173.500</td>
+                                                        <td class="solid-border">58</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">65</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 122 x 183 2.4155</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">217.395</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">326.092</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">244.569</td>
+                                                        <td class="solid-border">0</td>
+
+                        </tr>
+                                            <tr>
+                            <td class="solid-border" align="center">66</td>
+                            <td class="solid-border">MULIA RIBEN 5 mm 132 x 183 2.4155 (2)</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">90.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">217.395</td>
+                                                        <td class="solid-border" align="center">50.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">135.000</td>
+                                <td class="solid-border" style="vnd.ms-excel.numberformat:@">326.092</td>
+                                                        <td class="solid-border">25.00</td>
+                                                            <td class="solid-border" style="vnd.ms-excel.numberformat:@">244.569</td>
+                                                        <td class="solid-border">48</td>
+
+                        </tr>
+                                    </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

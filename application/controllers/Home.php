@@ -10,9 +10,9 @@ class Home extends CI_Controller
         $this->load->helper('bulan_helper');
         $this->load->helper('convert_helper');
         $this->load->library(array('excel'));
-        // if ($this->session->userdata('level') != 3 || $this->session->userdata('token') == '') {
-        //     redirect('login');
-        // }
+        if ($this->session->userdata('level') != 3 || $this->session->userdata('token') == '') {
+            redirect('login');
+        }
     }
 
     public function index()
@@ -27,7 +27,7 @@ class Home extends CI_Controller
 
         $data = [
             'title'  => 'Form Inspektorat',
-
+            'skala'   => $this->db->get_where('batas_prioritas', ['id' => 1])->row()->skala,
             'sess_opd'  => $this->session->userdata('opd'),
             'namaPemda' => $namaPemda,
             'idPemda'   => $idPemda,
@@ -61,6 +61,16 @@ class Home extends CI_Controller
         $data = $this->ref->rpjmd_opd();
         echo json_encode($data);
     }
+    public function getSasaranPemda()
+    {
+        $id_tujuan = $this->input->post('id_tujuan');
+
+        $sasaran = $this->db->select('ref_sasaran_strategis.id,ref_sasaran_strategis.sasaran,ref_sasaran_strategis.no_urut')
+            ->from('ref_tujuan_sasaran')
+            ->join('ref_sasaran_strategis', 'ref_sasaran_strategis.id = ref_tujuan_sasaran.id_sasaran')
+            ->where('id_tujuan', $id_tujuan)->get()->result_array();
+        echo json_encode($sasaran);
+    }
     public function referensi()
     {
         $rpjmd = $this->input->post('rpjmd');
@@ -90,13 +100,7 @@ class Home extends CI_Controller
         $this->input->post('tahun');
         $this->input->post('pemda');
         $config = [
-            [
-                'field' => 'misi',
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'Masukan Misi Strategis',
-                ],
-            ],
+
             [
                 'field' => 'rpjmd',
                 'rules' => 'required',
@@ -104,21 +108,18 @@ class Home extends CI_Controller
                     'required' => 'Pilih RPJMD',
                 ],
             ],
-            [
-                'field' => 'no_urut',
-                'rules' => 'required|numeric',
-                'errors' => [
-                    'required' => 'Masukan No Urut',
-                    'numeric' => 'No Urut Harus Angka',
-                ],
-            ],
-
         ];
 
 
         $this->form_validation->set_rules($config);
         $this->form_validation->set_error_delimiters('<span class="text-danger">', '</span>');
-        if ($this->form_validation->run() == TRUE) {
+        if ($this->form_validation->run() == FALSE) {
+            echo json_encode(
+                array(
+                    'status' => false,
+                    'message' => 'Tahun penilaian tidak boleh kosong'
+                )
+            );
         } else {
             if (isset($_FILES["fileExcel"]["name"])) {
                 $path = $_FILES["fileExcel"]["tmp_name"];
@@ -240,13 +241,14 @@ class Home extends CI_Controller
                         array('tahun_penilaian' => $this->input->post('tahun'), 'opd_id' => $this->input->post('id_opd'))
                     );
                 }
+                $opd = $this->db->get_where('ref_opd', ['id' => $this->input->post('id_opd')])->row_array();
                 foreach ($question as $q) {
                     $modus = $dataModus[$i];
                     $data = [
                         'tahun_penilaian'   => $this->input->post('tahun'),
                         'opd_id'            => $this->input->post('id_opd'),
                         'nama_pemda'        => $this->input->post('pemda'),
-                        'nama_opd'          => $this->input->post('pemda'),
+                        'nama_opd'          => $opd['nama_opd'],
                         'question_id'       => $q['id'],
                         'questions'         => $q['question'],
                         'id_master'         => $q['id_master'],
@@ -268,7 +270,7 @@ class Home extends CI_Controller
                 echo json_encode(
                     array(
                         'status' => false,
-                        'message' => 'File tidak ditemukan'
+                        'message' => 'File tidak ditemukan / tidak di upload'
                     )
                 );
             }
@@ -306,6 +308,7 @@ class Home extends CI_Controller
     {
         $tahun = $this->input->post('tahun');
         $id_opd = $this->input->post('id_opd');
+        $id_rpjmd = $this->input->post('id_rpjmd');
         $m1 =  $this->ref->m1();
         $master = [];
         foreach ($m1 as $m) {
@@ -338,10 +341,21 @@ class Home extends CI_Controller
                 'detail'    => $detail,
             ];
         }
+        $pemda =  $this->db->get_where('ref_pemda', ['id' => 1])->row();
+        $opd = $this->db->get_where('ref_opd', ['id' => $id_opd])->row_array();
+        if ($opd) {
+            $nama_opd = $opd['nama_opd'];
+        } else {
+            $nama_opd = '';
+        }
         $data = [
             'tahun'     => $tahun,
             'id_opd'    => $id_opd,
-            'master'    => $master
+            'master'    => $master,
+            'pemda'     => $pemda->nama_pemda,
+            'opd'  => $nama_opd,
+            'periode' => $this->db->get_where('ref_rpjmd', ['id' => $id_rpjmd])->row_array()['nama_periode'],
+
         ];
 
         $this->load->view('form/export1a', $data);

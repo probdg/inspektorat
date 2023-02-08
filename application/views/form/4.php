@@ -1,64 +1,80 @@
-    <!--begin::Form Group-->
-    <div class="form-group">
-        <label class="font-size-h6 font-weight-bolder text-dark">
-            Nama Pemda *
-        </label>
-        <input type="text" name="pemda" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 pemda" placeholder="Ketikan Tahun" value="<?= $namaPemda ?>" readonly />
+   <div class="form-group text-right">
 
-    </div>
-    <!--end::Form Group-->
+       <button onclick="preview4()" type="button" class="btn btn-danger font-weight-bolder font-size-h6 pl-8 pr-4 py-4 my-3">
+           <i class="far fa-file-pdf"></i>
+           Preview Form 4. Hasil Analisis Risiko
+       </button>
+   </div>
+   <!--begin::Form Group-->
+   <div class="form-group">
+       <label class="font-size-h6 font-weight-bolder text-dark">
+           Nama Pemda *
+       </label>
+       <input type="text" name="pemda" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6 pemda" placeholder="Ketikan Tahun" value="<?= $namaPemda ?>" readonly />
 
-    <!--begin::Form Group-->
-    <div class="form-group">
-        <label class="font-size-h6 font-weight-bolder text-dark">
-            Tahun Penilaian *
-        </label>
-        <input type="number" maxlength="4" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6 tahun" placeholder="Ketikan Tahun" value="" readonly />
-    </div>
-    <!--end::Form Group-->
+   </div>
+   <!--end::Form Group-->
 
-    <!--begin::Form Group-->
-    <div class="form-group">
-        <label class="font-size-h6 font-weight-bolder text-dark">
-            Tujuan Strategis *
-        </label>
-        <span class="tujuan"></span>
-    </div>
-    <!--end::Form Group-->
+   <!--begin::Form Group-->
+   <div class="form-group">
+       <label class="font-size-h6 font-weight-bolder text-dark">
+           Tahun Penilaian *
+       </label>
+       <input type="number" maxlength="4" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6 tahun" placeholder="Ketikan Tahun" value="" readonly />
+   </div>
+   <!--end::Form Group-->
+   <div class="row">
+       <div class="col-12">
+           <?php if ($sess_opd == '56') : ?>
+               <table class="table table-bordered" id="tabel_4_pemda">
+                   <thead>
+                       <tr>
+                           <th> NO</th>
+                           <th> URAIAN RISIKO </th>
+                           <th> KODE RISIKO </th>
+                           <th> SKALA DAMPAK </th>
+                           <th> SKALA KEMUNGKINAN </th>
+                           <th> SKALA RISIKO</th>
+                           <th> AKSI </th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                   </tbody>
+               </table>
 
-    <!--begin::Form Group-->
-    <div class="form-group">
-        <label class="font-size-h6 font-weight-bolder text-dark">
-            Urusan Pemerintahan *
-        </label>
-        <input type="text" class="form-control h-auto p-5 border-0 rounded-lg font-size-h6" />
-    </div>
-    <!--end::Form Group-->
+           <?php else : ?>
+               <table class="table table-bordered" id="tabel_4_opd">
+                   <thead>
+                       <tr>
+                           <th> NO</th>
+                           <th> URAIAN RISIKO </th>
+                           <th> KODE RISIKO </th>
+                           <th> SKALA DAMPAK </th>
+                           <th> SKALA KEMUNGKINAN </th>
+                           <th> SKALA RISIKO</th>
+                           <th> AKSI </th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                   </tbody>
+               </table>
 
+               <table class="table table-bordered" id="tabel_4_operasional">
+                   <thead>
+                       <tr>
+                           <th> NO</th>
+                           <th> URAIAN RISIKO </th>
+                           <th> KODE RISIKO </th>
+                           <th> SKALA DAMPAK </th>
+                           <th> SKALA KEMUNGKINAN </th>
+                           <th> SKALA RISIKO</th>
+                           <th> AKSI </th>
 
-    <table width="100%">
-        <thead>
-            <tr>
-                <th rowspan="2">NO</th>
-                <th rowspan="2">Risiko yang Teridentifikasi</th>
-                <th rowspan="2">Kode Risiko</th>
-                <th colspan="3">Analisis Risiko</th>
-            </tr>
-            <tr>
-                <th>Skala Dampak *)</th>
-                <th>Skala Kemungkinan *)</th>
-                <th>Skala Risiko</th>
-            </tr>
-            <tr>
-                <td>a</td>
-                <td>b</td>
-                <td>c</td>
-                <td>d</td>
-                <td>e</td>
-                <td>f</td>
-            </tr>
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
+                       </tr>
+                   </thead>
+                   <tbody>
+                   </tbody>
+               </table>
+           <?php endif ?>
+       </div>
+   </div>

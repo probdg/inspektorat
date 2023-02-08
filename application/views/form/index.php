@@ -26,7 +26,7 @@
     <link href="./assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="./assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="./assets/css/sweetalert2.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="./assets/css/sweetalert2.min.css" rel="stylesheet" type="text/css" />
 
     <!--end::Global Theme Styles-->
 
@@ -35,31 +35,25 @@
     <link href="./assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/themes/layout/brand/dark.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/table.css" rel="stylesheet" type="text/css" />
 
     <!--end::Layout Themes-->
     <!-- <link rel="shortcut icon" href="./assets/media/logos/favicon.ico" /> -->
     <script src="./assets/js/jquery.js"></script>
     <style>
-        thead th,
-        thead td {
-            background-color: #eeece1;
-            vertical-align: middle !important;
-            text-align: center;
-            border: 1px solid #000000;
+        #chartdiv {
+            width: 100%;
+            height: 500px;
         }
 
-
-
-
-        table,
-        tbody th,
-        tbody td {
-            border: 1px solid;
-            padding: 6px;
+        body {
+            font-family: Arial,
+                sans-serif !important;
         }
 
-        table {
-            border-collapse: collapse;
+        .dataTables_wrapper .dataTable th,
+        .dataTables_wrapper .dataTable td {
+            vertical-align: top;
         }
 
         .custom-file-input:lang(en)~.custom-file-label::after {
@@ -76,6 +70,7 @@
 <!--begin::Body-->
 
 <body id="kt_body" class="header-fixed header-mobile-fixed">
+
     <div class="d-flex flex-column flex-root">
         <!--begin::Page-->
         <div class="d-flex flex-row flex-column-fluid page">
@@ -127,7 +122,7 @@
                                 <!--begin::Aside Top-->
                                 <div class="d-flex flex-column-fluid flex-column px-xxl-30 px-10">
                                     <!--begin: Wizard Nav-->
-                                    <div class="wizard-nav d-flex d-flex justify-content-center pt-10 pt-lg-10 pb-5">
+                                    <div class="wizard-nav d-flex d-flex pt-10 pt-lg-10 pb-5">
                                         <!--begin::Wizard Steps-->
                                         <div class="wizard-steps">
                                             <!--begin::Wizard Step 1 Nav-->
@@ -139,16 +134,15 @@
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
-                                                            FORM 1 A
+                                                            FORM 1
                                                         </h3>
                                                         <div class="wizard-desc">
-                                                            CEE Persepsi
+                                                            Hasil Survey
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--end::Wizard Step 1 Nav-->
-
                                             <!--begin::Wizard Step 2 Nav-->
                                             <div class="wizard-step" data-wizard-type="step">
                                                 <div class="wizard-wrapper">
@@ -158,10 +152,14 @@
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
-                                                            Form 1 A 1
+                                                            Form 2
                                                         </h3>
                                                         <div class="wizard-desc">
-                                                            Responden SPIP
+                                                            <?php if ($sess_opd == '56') : ?>
+                                                                Penetapan Konteks Risiko Pemda
+                                                            <?php else : ?>
+                                                                Penetapan Konteks Risiko OPD
+                                                            <?php endif ?>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -177,155 +175,25 @@
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
-                                                            Form 1 B
+                                                            Form 3
                                                         </h3>
                                                         <div class="wizard-desc">
-                                                            Simpulan CEE Dokumen
+                                                            <?php if ($sess_opd == '56') : ?>
+                                                                Risk Strategis Pemda
+                                                            <?php else : ?>
+                                                                Risk Strategis OPD
+                                                            <?php endif ?>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <!--end::Wizard Step 3 Nav-->
-
-                                            <!--begin::Wizard Step 4 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">4</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 1 C
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Simpulan CEE
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 4 Nav-->
-
-                                            <!--begin::Wizard Step 5 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">5</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 2 A
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Konteks Strategis Pemda
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 5 Nav-->
-
-                                            <!--begin::Wizard Step 6 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">6</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 2 B
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Konteks Strategis OPD
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 6 Nav-->
-
-                                            <!--begin::Wizard Step 7 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">7</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 2 C
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Konteks Operasional OPD
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 7 Nav-->
-
-                                            <!--begin::Wizard Step 8 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">8</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 3 A
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Risk Strategis Pemda
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 8 Nav-->
-
-                                            <!--begin::Wizard Step 9 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">9</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 3 B
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Risk Strategis OPD
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 9 Nav-->
-
-                                            <!--begin::Wizard Step 10 Nav-->
-                                            <div class="wizard-step" data-wizard-type="step">
-                                                <div class="wizard-wrapper">
-                                                    <div class="wizard-icon">
-                                                        <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">10</span>
-                                                    </div>
-                                                    <div class="wizard-label">
-                                                        <h3 class="wizard-title">
-                                                            Form 3 C
-                                                        </h3>
-                                                        <div class="wizard-desc">
-                                                            Risk Operasional OPD
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end::Wizard Step 10 Nav-->
-
                                             <!--begin::Wizard Step 11 Nav-->
                                             <div class="wizard-step" data-wizard-type="step">
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">11</span>
+                                                        <span class="wizard-number">4</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -343,7 +211,7 @@
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">12</span>
+                                                        <span class="wizard-number">5</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -362,7 +230,7 @@
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">13</span>
+                                                        <span class="wizard-number">6</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -381,7 +249,7 @@
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">14</span>
+                                                        <span class="wizard-number">7</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -394,13 +262,31 @@
                                                 </div>
                                             </div>
                                             <!--end::Wizard Step 14 Nav-->
+                                            <!--begin::Wizard Step 14 Nav-->
+                                            <div class="wizard-step" data-wizard-type="step">
+                                                <div class="wizard-wrapper">
+                                                    <div class="wizard-icon">
+                                                        <i class="wizard-check ki ki-check"></i>
+                                                        <span class="wizard-number">7</span>
+                                                    </div>
+                                                    <div class="wizard-label">
+                                                        <h3 class="wizard-title">
+                                                            Form 7 Peta Risiko
+                                                        </h3>
+                                                        <div class="wizard-desc">
+                                                            Peta Risiko
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end::Wizard Step 14 Nav-->
 
                                             <!--begin::Wizard Step 15 Nav-->
                                             <div class="wizard-step" data-wizard-type="step">
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">15</span>
+                                                        <span class="wizard-number">8</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -419,7 +305,7 @@
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">16</span>
+                                                        <span class="wizard-number">9</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -438,7 +324,7 @@
                                                 <div class="wizard-wrapper">
                                                     <div class="wizard-icon">
                                                         <i class="wizard-check ki ki-check"></i>
-                                                        <span class="wizard-number">17</span>
+                                                        <span class="wizard-number">10</span>
                                                     </div>
                                                     <div class="wizard-label">
                                                         <h3 class="wizard-title">
@@ -451,7 +337,24 @@
                                                 </div>
                                             </div>
                                             <!--end::Wizard Step 17 Nav-->
-
+                                            <!--begin::Wizard Step 17 Nav-->
+                                            <div class="wizard-step" data-wizard-type="step">
+                                                <div class="wizard-wrapper">
+                                                    <div class="wizard-icon">
+                                                        <i class="wizard-check ki ki-check"></i>
+                                                        <span class="wizard-number">11</span>
+                                                    </div>
+                                                    <div class="wizard-label">
+                                                        <h3 class="wizard-title">
+                                                            Form 11
+                                                        </h3>
+                                                        <div class="wizard-desc">
+                                                            Daftar Risiko Prioritas
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end::Wizard Step 17 Nav-->
                                         </div>
                                         <!--end::Wizard Steps-->
                                     </div>
@@ -472,115 +375,164 @@
                                             <!--begin::Title-->
                                             <div class="pt-10 pb-10 pb-lg-15">
                                                 <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    REKAPITULASI HASIL KUESIONER PENILAIAN LINGKUNGAN
-                                                    PENGENDALIAN INTERN CONTROL ENVIRONMENT EVALUATION (CEE)
+                                                    HASIL SURVEY
                                                 </h3>
                                                 <div class="text-muted font-weight-bold font-size-h5">
                                                     PEMERINTAH DAERAH KABUPATEN SUMEDANG
                                                 </div>
                                             </div>
 
-                                            <!--begin::Title-->
-                                            <?php $this->load->view('form/1a.php'); ?>
+                                            <!--end::Title-->
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <ul class="nav nav-success nav-pills nav-fill">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" data-toggle="tab" href="#hasil_survey_1">Upload Hasil Survey</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#hasil_survey_2">Hasil Survey</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#hasil_survey_3">Sumber Data</a>
+                                                        </li>
 
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#hasil_survey_4" tabindex="-1" aria-disabled="true">Hasil Reviu Survey</a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content mt-5" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="hasil_survey_1" role="tabpanel" aria-labelledby="hasil_survey_2">
+                                                            <?php $this->load->view('form/1a'); ?>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="hasil_survey_2" role="tabpanel" aria-labelledby="hasil_survey_2">
+                                                            <?php $this->load->view('form/1a1'); ?>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="hasil_survey_3" role="tabpanel" aria-labelledby="hasil_survey_3">
+                                                            <?php $this->load->view('form/1b'); ?>
+
+                                                        </div>
+                                                        <div class="tab-pane fade" id="hasil_survey_4" role="tabpanel" aria-labelledby="hasil_survey_4">
+                                                            <?php $this->load->view('form/1c'); ?>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
                                         <!--end: Wizard Step 1-->
-
                                         <!--begin: Wizard Step 2-->
                                         <div class="pb-5" data-wizard-type="step-content">
                                             <!--begin::Title-->
                                             <div class="pt-10 pb-10 pb-lg-15">
                                                 <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    KUESIONER PENILAIAN LINGKUNGAN PENGENDALIAN INTERN
-                                                    CONTROL ENVIRONMENT EVALUATION (CEE)
+                                                    PENETAPAN KONTEKS
                                                 </h3>
-                                                <div class="text-muted font-weight-bold font-size-h5">
-                                                    PEMERINTAH DAERAH KABUPATEN SUMEDANG
+                                            </div>
+                                            <!--end::Title-->
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php if ($sess_opd == '56') : ?>
+                                                        <?php $this->load->view('form/2a'); ?>
+                                                    <?php else : ?>
+                                                        <!--begin::Form Group-->
+                                                        <div class="form-group">
+                                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                                Nama Pemda *
+                                                            </label>
+                                                            <input type="text" name="pemda" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6 pemda" value="<?= $namaPemda ?>" readonly />
+
+                                                        </div>
+                                                        <!--end::Form Group-->
+
+                                                        <!--begin::Form Group-->
+                                                        <div class="form-group">
+                                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                                Tahun Penilaian *
+                                                            </label>
+                                                            <input type="number" maxlength="4" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6 tahun" readonly />
+                                                        </div>
+                                                        <!--end::Form Group-->
+
+                                                        <!--begin::Form Group-->
+                                                        <div class="form-group">
+                                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                                Periode yang dinilai *
+                                                            </label>
+                                                            <input type="text" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6 rpjmd" value="" readonly />
+                                                        </div>
+                                                        <!--end::Form Group-->
+
+                                                        <!--begin::Form Group-->
+                                                        <div class="form-group">
+                                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                                OPD yang dinilai *
+                                                            </label>
+                                                            <input type="text" class="form-control form-control-solid h-auto p-3 border-0 rounded-lg font-size-h6" value="<?= $namaOpd ?>" readonly />
+
+                                                        </div>
+                                                        <!--end::Form Group-->
+
+                                                        <!--begin::Form Group-->
+                                                        <div class="form-group">
+                                                            <label class="font-size-h6 font-weight-bolder text-dark">
+                                                                Sumber Data*
+                                                            </label>
+                                                            <input type="text" name="sumber_data_2b" class="form-control h-auto p-3 border-0 rounded-lg font-size-h6" value="Renstra <?= $namaOpd ?>" />
+                                                        </div>
+                                                        <!--end::Form Group-->
+
+                                                        <!-- <div class="form-group text-right">
+
+                                                            <button id="btn2b" type="button" class="btn btn-warning font-weight-bolder font-size-h6 pl-8 pr-4 py-4 my-3">
+                                                                <i class="far fa-save"></i>
+                                                                Simpan
+                                                            </button>
+                                                        </div> -->
+
+                                                        <ul class="nav nav-success nav-pills nav-fill">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab" href="#penetapan_kontek_1">1. RISIKO STRATEGIS </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#penetapan_kontek_2">2.RISIKO KEGIATAN </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#penetapan_kontek_3">3.RISIKO SUBKEGIATAN </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#penetapan_kontek_4">4.RISIKO AKTIFITAS </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content mt-5" id="myTabContent">
+                                                            <div class="tab-pane fade show active" id="penetapan_kontek_1" role="tabpanel" aria-labelledby="penetapan_kontek_1">
+                                                                <?php $this->load->view('form/2b'); ?>
+
+                                                            </div>
+                                                            <div class="tab-pane fade" id="penetapan_kontek_2" role="tabpanel" aria-labelledby="penetapan_kontek_2">
+                                                                <?php $this->load->view('form/2c_kegiatan'); ?>
+                                                            </div>
+
+                                                            <div class="tab-pane fade" id="penetapan_kontek_3" role="tabpanel" aria-labelledby="penetapan_kontek_3">
+                                                                <?php $this->load->view('form/2c_subkegiatan'); ?>
+                                                            </div>
+
+                                                            <div class="tab-pane fade" id="penetapan_kontek_4" role="tabpanel" aria-labelledby="penetapan_kontek_4">
+                                                                <?php $this->load->view('form/2c_aktifitas'); ?>
+                                                            </div>
+
+
+                                                        </div>
+
+                                                    <?php endif ?>
+
                                                 </div>
                                             </div>
-                                            <!--begin::Title-->
-
-                                            <?php $this->load->view('form/1a1.php'); ?>
-
                                         </div>
                                         <!--end: Wizard Step 2-->
 
                                         <!--begin: Wizard Step 3-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Kondisi Kerentanan Lingkungan Pengendalian Intern di
-                                                    Pemerintah Daerah Kabupaten Sumedang
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-
-                                            <?php $this->load->view('form/1b.php'); ?>
-                                        </div>
-                                        <!--end: Wizard Step 3-->
-
-                                        <!--begin: Wizard Step 4-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Simpulan Survei Persepsi atas Lingkungan Pengendalian Intern
-                                                    Pemerintah Daerah Kabupaten Sumedang
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-
-                                            <?php $this->load->view('form/1c.php'); ?>
-
-                                        </div>
-                                        <!--end: Wizard Step 4-->
-
-                                        <!--begin: Wizard Step 5-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    PENETAPAN KONTEKS RISIKO STRATEGIS PEMDA
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-                                            <?php $this->load->view('form/2a.php'); ?>
-
-
-                                        </div>
-                                        <!--end: Wizard Step 5-->
-
-                                        <!--begin: Wizard Step 6-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    PENETAPAN KONTEKS RISIKO STRATEGIS OPD
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-                                            <?php $this->load->view('form/2b.php'); ?>
-
-
-                                        </div>
-                                        <!--end: Wizard Step 6-->
-
-                                        <!--begin: Wizard Step 7-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    PENETAPAN KONTEKS RISIKO OPERASIONAL OPD
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-                                            <?php $this->load->view('form/2c.php'); ?>
-                                        </div>
-                                        <!--end: Wizard Step 7-->
-                                        <!--begin: Wizard Step 8-->
                                         <div class="pb-5" data-wizard-type="step-content">
                                             <!--begin::Title-->
                                             <div class="pt-10 pb-10 pb-lg-15">
@@ -589,35 +541,48 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-                                            <?php $this->load->view('form/3a.php'); ?>
-                                        </div>
-                                        <!--end: Wizard Step 8-->
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php if ($sess_opd == '56') : ?>
 
-                                        <!--begin: Wizard Step 9-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Identifikasi Risiko Strategis OPD
-                                                </h3>
-                                            </div>
-                                            <!--end::Title-->
-                                            <?php $this->load->view('form/3b.php'); ?>
-                                        </div>
-                                        <!--end: Wizard Step 9-->
+                                                        <?php $this->load->view('form/3a'); ?>
 
-                                        <!--begin: Wizard Step 10-->
-                                        <div class="pb-5" data-wizard-type="step-content">
-                                            <!--begin::Title-->
-                                            <div class="pt-10 pb-10 pb-lg-15">
-                                                <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Identifikasi Risiko Operasional OPD
-                                                </h3>
+
+                                                    <?php else : ?>
+                                                        <ul class="nav nav-success nav-pills nav-fill">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab" href="#identifikasi_risk_1">1. RISIKO STRATEGIS </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#identifikasi_risk_2">2.RISIKO KEGIATAN </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#identifikasi_risk_3">3.RISIKO SUB KEGIATAN </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#identifikasi_risk_4">4.RISIKO AKTIFITAS </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="tab-content mt-5" id="myTabContent">
+                                                            <div class="tab-pane fade show active" id="identifikasi_risk_1" role="tabpanel" aria-labelledby="identifikasi_risk_1">
+                                                                <?php $this->load->view('form/3b'); ?>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="identifikasi_risk_2" role="tabpanel" aria-labelledby="identifikasi_risk_2">
+                                                                <?php $this->load->view('form/3c_kegiatan'); ?>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="identifikasi_risk_3" role="tabpanel" aria-labelledby="identifikasi_risk_3">
+                                                                <?php $this->load->view('form/3c_subkegiatan'); ?>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="identifikasi_risk_4" role="tabpanel" aria-labelledby="identifikasi_risk_4">
+                                                                <?php $this->load->view('form/3c_aktifitas'); ?>
+                                                            </div>
+                                                        </div>
+
+                                                    <?php endif ?>
+                                                </div>
                                             </div>
-                                            <!--end::Title-->
-                                            <?php $this->load->view('form/3c.php'); ?>
                                         </div>
-                                        <!--end: Wizard Step 10-->
+                                        <!--end: Wizard Step 3-->
 
                                         <!--begin: Wizard Step 11-->
                                         <div class="pb-5" data-wizard-type="step-content">
@@ -628,7 +593,11 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-                                            <?php $this->load->view('form/4.php'); ?>
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/4'); ?>
+                                                </div>
+                                            </div>
                                         </div>
                                         <!--end: Wizard Step 11-->
                                         <!--begin: Wizard Step 12-->
@@ -640,7 +609,11 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-                                            <?php $this->load->view('form/5.php'); ?>
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/5'); ?>
+                                                </div>
+                                            </div>
                                         </div>
                                         <!--end: Wizard Step 12-->
 
@@ -649,13 +622,16 @@
                                             <!--begin::Title-->
                                             <div class="pt-10 pb-10 pb-lg-15">
                                                 <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Penilaian atas Kegiatan Pengendalian yang Ada dan Masih Dibutuhkan/ RTP atas Kelemahan Lingkungan Pengendalian
-                                                    <center>( RTP atas CEE)</center>
+                                                    <center> Penilaian atas Kegiatan Pengendalian yang Ada dan Masih Dibutuhkan/ RTP atas Kelemahan Lingkungan Pengendalian
+                                                        ( RTP atas CEE)</center>
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-
-                                            <?php $this->load->view('form/6.php'); ?>
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/6'); ?>
+                                                </div>
+                                            </div>
 
                                         </div>
                                         <!--end: Wizard Step 13-->
@@ -665,14 +641,34 @@
                                             <!--begin::Title-->
                                             <div class="pt-10 pb-10 pb-lg-15">
                                                 <h3 class="font-weight-bolder text-dark font-size-h2">
-                                                    Penilaian atas Kegiatan Pengendalian yang Ada dan Masih Dibutuhkan
-                                                    <center>(RTP atas Hasil Identifikasi Risiko) </center>
+                                                    <center>Penilaian atas Kegiatan Pengendalian yang Ada dan Masih Dibutuhkan
+                                                        (RTP atas Hasil Identifikasi Risiko) </center>
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/7'); ?>
 
-                                            <?php $this->load->view('form/7.php'); ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end: Wizard Step 14-->
+                                        <!--begin: Wizard Step 14-->
+                                        <div class="pb-5" data-wizard-type="step-content">
+                                            <!--begin::Title-->
+                                            <div class="pt-10 pb-10 pb-lg-15">
+                                                <h3 class="font-weight-bolder text-dark font-size-h2">
+                                                    <center>Peta Risiko </center>
+                                                </h3>
+                                            </div>
+                                            <!--end::Title-->
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/7_peta'); ?>
 
+                                                </div>
+                                            </div>
                                         </div>
                                         <!--end: Wizard Step 14-->
 
@@ -685,9 +681,11 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-
-                                            <?php $this->load->view('form/8.php'); ?>
-
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/8'); ?>
+                                                </div>
+                                            </div>
                                         </div>
                                         <!--end: Wizard Step 15-->
                                         <!--begin: Wizard Step 16-->
@@ -699,8 +697,11 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-
-                                            <?php $this->load->view('form/9.php'); ?>
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/9'); ?>
+                                                </div>
+                                            </div>
 
                                         </div>
                                         <!--end: Wizard Step 16-->
@@ -714,8 +715,11 @@
                                                 </h3>
                                             </div>
                                             <!--end::Title-->
-
-                                            <?php $this->load->view('form/10.php'); ?>
+                                            <div class="card card-custom gutter-b">
+                                                <div class="card-body">
+                                                    <?php $this->load->view('form/10'); ?>
+                                                </div>
+                                            </div>
 
                                         </div>
                                         <!--end: Wizard Step 17-->
@@ -730,7 +734,7 @@
                                             </div>
                                             <!--end::Title-->
 
-                                            <?php $this->load->view('form/11.php'); ?>
+                                            <?php $this->load->view('form/11'); ?>
 
                                         </div>
                                         <!--end: Wizard Step 17-->
@@ -792,13 +796,169 @@
         </div>
         <!--end::Wrapper-->
     </div>
-    <!--end::Page-->
-    </div>
 
+    <?php $this->load->view('form/modalUmum'); ?>
+    <?php $this->load->view('form/modal1b'); ?>
+    <?php $this->load->view('form/modal1c'); ?>
+    <?php $this->load->view('form/modal2a'); ?>
+    <?php $this->load->view('form/modal2b'); ?>
+    <?php $this->load->view('form/modal2bPengelola'); ?>
+
+    <!-- Kegiatan -->
+    <?php $this->load->view('form/modal2c'); ?>
+    <!-- Sub Kegiatan -->
+    <?php $this->load->view('form/modal2c_subkegiatan'); ?>
+    <!-- Aktifitas -->
+    <?php $this->load->view('form/modal2c_aktifitas'); ?>
+
+    <?php $this->load->view('form/modal2cPengelola1'); ?>
+    <?php $this->load->view('form/modal2cPengelola2'); ?>
+    <?php $this->load->view('form/modal2cPengelola3'); ?>
+    <?php $this->load->view('form/modal2cPengelola4'); ?>
+
+    <?php $this->load->view('form/modal3a'); ?>
+    <?php $this->load->view('form/modal3b'); ?>
+    <?php $this->load->view('form/modal3c'); ?>
+    <?php $this->load->view('form/modal4_pemda'); ?>
+    <?php $this->load->view('form/modal4_opd'); ?>
+    <?php $this->load->view('form/modal4_operasional'); ?>
+    <?php $this->load->view('form/modal6'); ?>
+
+    <?php $this->load->view('form/modal7_pemda'); ?>
+    <?php $this->load->view('form/modal7_opd'); ?>
+    <?php $this->load->view('form/modal7_operasional'); ?>
+
+    <?php $this->load->view('form/modal8_pemda'); ?>
+    <?php $this->load->view('form/modal8_opd'); ?>
+    <?php $this->load->view('form/modal8_operasional'); ?>
+
+    <?php $this->load->view('form/modal9_pemda'); ?>
+    <?php $this->load->view('form/modal9_opd'); ?>
+    <?php $this->load->view('form/modal9_operasional'); ?>
+    <?php $this->load->view('form/modalPrint'); ?>
+    <div id="kt_scrolltop" class="scrolltop">
+        <span class="svg-icon"><!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Navigation/Up-2.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                    <rect fill="#000000" opacity="0.3" x="11" y="10" width="2" height="10" rx="1"></rect>
+                    <path d="M6.70710678,12.7071068 C6.31658249,13.0976311 5.68341751,13.0976311 5.29289322,12.7071068 C4.90236893,12.3165825 4.90236893,11.6834175 5.29289322,11.2928932 L11.2928932,5.29289322 C11.6714722,4.91431428 12.2810586,4.90106866 12.6757246,5.26284586 L18.6757246,10.7628459 C19.0828436,11.1360383 19.1103465,11.7686056 18.7371541,12.1757246 C18.3639617,12.5828436 17.7313944,12.6103465 17.3242754,12.2371541 L12.0300757,7.38413782 L6.70710678,12.7071068 Z" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </svg><!--end::Svg Icon--></span>
+    </div>
+    <ul class="sticky-toolbar nav flex-column pl-2 pr-2 pt-3 pb-3 mt-4">
+
+        <!--begin::Item-->
+        <li class="nav-item mb-2" data-toggle="tooltip" title="" data-placement="left" data-original-title="Informasi Umum Pemda & OPD">
+            <button onclick="modal_umum_show()" class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary">
+                <i class="flaticon2-gear"></i>
+            </button>
+        </li>
+        <!--end::Item-->
+
+
+    </ul>
     <!--end::Main-->
 </body>
 <!--begin::Global Config(global config for global JS scripts)-->
+
+
+<!--end::Global Config-->
+
+<?php $this->load->view('form/js7_peta'); ?>
+<!--begin::Global Theme Bundle(used by all pages)-->
+<script src="./assets/plugins/global/plugins.bundle.js"></script>
+<script src="./assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+<script src="./assets/js/scripts.bundle.js"></script>
+<script src="./assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="./assets/js/pages/crud/datatables/extensions/responsive.min.js"></script>
+<!--end::Global Theme Bundle-->
+
+<!--begin::Page Vendors(used by this page)-->
+<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+<!--end::Page Vendors-->
+
+<!--begin::Page Scripts(used by this page)-->
+<script src="./assets/js/pages/custom/wizard/wizard-5.js"></script>
+<!--end::Page Scripts-->
+
+<!--begin::Page Scripts(used by this page)-->
+<script src="./assets/js/pages/widgets.js"></script>
+<script src="./assets/js/sweetalert.min.js"></script>
+<script src="./assets/js/numeral.js"></script>
+<!-- load JS -->
+<?php $this->load->view('form/js1a'); ?>
+<!-- SUMBER DATA -->
+<?php $this->load->view('form/js1b'); ?>
+<!-- REVIU HASIL -->
+<?php $this->load->view('form/js1c'); ?>
+<!-- INFORMASI UMUM PEMDA -->
+<?php $this->load->view('form/js2a'); ?>
+<!-- INFORMASI SOP OPD -->
+<?php $this->load->view('form/js2b'); ?>
+<!-- INFORMASI PROGRAM OPD -->
+<?php $this->load->view('form/js2c'); ?>
+<!-- IDENTIFIKASI RISK PEMDA -->
+<?php $this->load->view('form/js3a'); ?>
+<!-- IDENTIFIKASI RISK STRATEGIS OPD -->
+<?php $this->load->view('form/js3b'); ?>
+<!-- IDENTIFIKASI OPERARIONAL OPD -->
+<?php $this->load->view('form/js3c'); ?>
+<!-- ANALISIS RISIKO -->
+<?php $this->load->view('form/js4'); ?>
+<!-- SKALA PRIORITAS RISIKO -->
+<?php $this->load->view('form/js5'); ?>
+<!-- RTP ATAS CEE -->
+<?php $this->load->view('form/js6'); ?>
+<!-- RTP atas Hasil Identifikasi Risiko -->
+<?php $this->load->view('form/js7'); ?>
+
+<?php $this->load->view('form/js8'); ?>
+<?php $this->load->view('form/js9'); ?>
+<?php $this->load->view('form/js10'); ?>
+
+
+
+
 <script>
+    var time;
+
+    const loadUrusan = () => {
+        $('[name="urusan_pemda"]').html('')
+        $('[name="urusan_opd"]').html('')
+
+        $.ajax({
+            type: "get",
+            url: '<?= base_url('form/Form2a/get_urusan') ?>',
+            dataType: "html",
+            success: function(response) {
+                $('[name="urusan_pemda"]').html(response)
+                $('[name="urusan_opd"]').html(response)
+
+            }
+        });
+    }
+    loadUrusan();
+    modal_umum_show();
+    $('.summernote').summernote({
+        height: 150,
+        // toolbar: false,
+        toolbar: [
+            ['font', ['bold', 'italic', 'underline', 'clear']],
+            ['para', ['ul', 'ol', 'paragraph']],
+        ],
+    });
+
+    function printElement() {
+        var divContents = document.getElementsByClassName("printPreview")[0].innerHTML;
+        var a = window.open('', '', 'height=500, width=500');
+        a.document.write('<html>');
+        a.document.write('<body>');
+        a.document.write(divContents);
+        a.document.write('</body></html>');
+        a.document.close();
+        a.print();
+    }
+
     var KTAppSettings = {
         "breakpoints": {
             "sm": 576,
@@ -857,32 +1017,33 @@
         },
         "font-family": "Poppins"
     };
-</script>
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-bottom-right",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "5000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    };
 
-<!--end::Global Config-->
+    function modal_umum_show() {
 
-<!--begin::Global Theme Bundle(used by all pages)-->
-<script src="./assets/plugins/global/plugins.bundle.js"></script>
-<script src="./assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-<script src="./assets/js/scripts.bundle.js"></script>
-<script src="./assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="./assets/js/pages/crud/datatables/extensions/responsive.min.js"></script>
-<!--end::Global Theme Bundle-->
-
-<!--begin::Page Vendors(used by this page)-->
-<script src="./assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-<!--end::Page Vendors-->
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="./assets/js/pages/custom/wizard/wizard-5.js"></script>
-<!--end::Page Scripts-->
-
-<!--begin::Page Scripts(used by this page)-->
-<script src="./assets/js/pages/widgets.js"></script>
-<script src="./assets/js/sweetalert.min.js"></script>
-<script src="./assets/js/numeral.js"></script>
-
-<script>
+        $('.modal-title').text('Informasi Umum Strategis Pemda dan OPD');
+        $('#modal_form_umum').modal('show');
+        $('#modal_form_umum').modal({
+            backdrop: 'static',
+            keyboard: false
+        })
+    }
     const logout = () => {
         Swal.fire({
             title: "Apakah anda yakin?",
@@ -898,10 +1059,8 @@
         });
     }
     $('.select2').select2();
-    var time;
     const changeTahun = (e) => {
         $('.tahun').val(e.value)
-
         clearTimeout(time);
         time = setTimeout(function() {
             $.ajax({
@@ -922,15 +1081,19 @@
                             url: "<?= base_url('home/loadResponden') ?>",
                             data: {
                                 tahun: e.value,
-                                id_opd: $('[name=id]').val()
+                                id_opd: $('[name=id]').val(),
+                                id_rpjmd: res.id
                             },
                             dataType: "html",
                             success: function(response) {
                                 $('#responden').html(response);
+                                $('.export-1a1').show();
+                                reloadAllTable();
                             }
                         });
 
                     } else {
+                        $('.export-1a1').hide();
                         toastr.error('Tidak di temukan RPJMD');
 
                     }
@@ -938,149 +1101,88 @@
             });
         }, 500);
     }
-    const changeRpjmd = (value) => {
+    const reloadAllTable = () => {
+        reload_table1b();
+        reload_table1c();
+        reload_table2a();
+        reload_table3a();
+        reload_table3b();
+        reload_table3c();
+        reload_iku_opd();
+        reload_output_opd();
+        reload_table_4_pemda();
+        reload_table_4_opd();
+        reload_table_4_operasional();
+        reload_table_6();
 
-        $.ajax({
-            type: "post",
-            url: "<?= base_url('home/referensi') ?>",
-            data: {
-                rpjmd: value,
-                opd: $('[name=id_opd]').val()
-            },
-            async: false,
+        reload_table_7_pemda();
+        reload_table_7_opd();
+        reload_table_7_operasional();
 
-            dataType: "JSON",
-            success: function(res) {
-                $('.misi , .sasaran , .tujuan').html('');
-                $.each(res.misi, function(i, value) {
-
-                    $('.misi').append('<p>' + value.no_urut + '.' + value.misi + '</p>')
-                });
-                $.each(res.sasaran, function(i, value) {
-                    $('.sasaran').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
-                });
-                $.each(res.tujuan, function(i, value) {
-                    $('.tujuan').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
-                });
-
-            }
-        });
-        $.ajax({
-            type: "post",
-            url: "<?= base_url('home/rpjmd_opd') ?>",
-            async: false,
-            data: {
-                opd: $('[name=id]').val(),
-                rpjmd: value,
-            },
-            dataType: "JSON",
-            success: function(res) {
-                $('.sasaran_opd , .tujuan_opd').html('');
-
-                $.each(res.sasaran, function(i, value) {
-                    $('.sasaran_opd').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
-                });
-                $.each(res.tujuan, function(i, value) {
-                    $('.tujuan_opd').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
-                });
-
-            }
-        });
+        reload_table_8_pemda();
+        reload_table_8_opd();
+        reload_table_8_operasional();
+        reload_table_9_pemda();
+        reload_table_9_opd();
+        reload_table_9_operasional();
     }
-    $('#upload1a').on('click', function() {
-        var file_data = $('#fileExcel')[0].files;
-        var form = new FormData();
-        form.append('fileExcel', file_data[0]);
-        form.append('tahun', $('[name=tahun]').val());
-        form.append('nama_opd', $('[name=pemda]').val());
-        form.append('pemda', 'PEMERINTAH DAERAH KABUPATEN SUMEDANG');
-        form.append('id_opd', $('[name=id]').val());
-        form.append('rpjmd', $('[name=id_rpjmd]').val());
 
-        var settings = {
-            "url": "<?= base_url('home/import') ?>",
-            "method": "POST",
-            "timeout": 0,
-            "processData": false,
-            "mimeType": "multipart/form-data",
-            "contentType": false,
 
-            "data": form
-        };
-
-        $.ajax(settings).done(function(obj) {
+    const changeRpjmd = (value) => {
+        updateData();
+        <?php if ($sess_opd == 56) : ?>
             $.ajax({
                 type: "post",
-                url: "<?= base_url('home/loadResponden') ?>",
+                url: "<?= base_url('home/referensi') ?>",
                 data: {
-                    tahun: $('[name=tahun]').val(),
-                    id_opd: $('[name=id]').val()
+                    rpjmd: value,
+                    opd: $('[name=id_opd]').val()
                 },
-                dataType: "html",
-                success: function(response) {
-                    $('#responden').html(response);
+                async: false,
+
+                dataType: "JSON",
+                success: function(res) {
+                    $('.misi , .sasaran , .tujuan , #select_tujuan_opd').html('');
+                    $('#select_tujuan_pemda').append('<option value="">Pilih Tujuan</option>');
+                    $.each(res.misi, function(i, value) {
+                        $('.misi').append('<p style="margin:0px;">' + value.no_urut + '.' + value.misi + '</p>')
+                    });
+                    $.each(res.sasaran, function(i, value) {
+                        // $('.sasaran').append('<p style="margin:0px;">' + value.no_urut + '.' + value.sasaran + '</p>')
+                    });
+                    $.each(res.tujuan, function(i, value) {
+                        $('#select_tujuan_pemda').append('<option value="' + value.id + '">' + value.no_urut + '.' + value.tujuan + '</option>')
+                        // $('.tujuan').append('<p style="margin:0px;">' + value.no_urut + '.' + value.tujuan + '</p>')
+                    });
+
                 }
             });
-            toastr.success('Berhasil di import');
+        <?php else : ?>
+            $.ajax({
+                type: "post",
+                url: "<?= base_url('home/rpjmd_opd') ?>",
+                async: false,
+                data: {
+                    opd: $('[name=id]').val(),
+                    rpjmd: value,
+                },
+                dataType: "JSON",
+                success: function(res) {
+                    $('.sasaran_opd , .tujuan_opd').html('');
 
-        });
-    });
+                    $.each(res.sasaran, function(i, value) {
+                        $('.sasaran_opd').append('<p>' + value.no_urut + '.' + value.sasaran + '</p>')
+                    });
+                    $.each(res.tujuan, function(i, value) {
+                        $('.tujuan_opd').append('<p>' + value.no_urut + '.' + value.tujuan + '</p>')
+                    });
 
-
-
-    function addOtherForm() {
-        var parent = document.getElementById('form-parent');
-        var child = `<div class="card card-custom example example-compact my-4">
-                            <div class="card-body">
-                                <div class="form-group">
-                                    <label>Sumber Data</label>
-                                    <input type="text" class="form-control"
-                                        placeholder="Ketikan Sumber Data" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleTextarea">Uraian
-                                        Kelemahan</label>
-                                    <textarea class="form-control" id="exampleTextarea"
-                                        placeholder="Ketikan Uraian Kelemahan"
-                                        rows="3"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label>Klasifikasi</label>
-                                    <input type="text" class="form-control"
-                                        placeholder="Ketikan Klasifikasi" />
-                                </div>
-                                <div class="form-group">
-                <label>
-                    Nilai
-                </label>
-                <div class="radio-inline d-flex justify-content-around">
-                    <label class="radio radio-lg radio-outline">
-                        <input type="radio" name="nilai" value="1" />
-                        <span></span>
-                        1
-                    </label>
-                    <label class="radio radio-lg radio-outline">
-                        <input type="radio" name="nilai" value="2" />
-                        <span></span>
-                        2
-                    </label>
-                    <label class="radio radio-lg radio-outline">
-                        <input type="radio" name="nilai" value="3" />
-                        <span></span>
-                        3
-                    </label>
-                    <label class="radio radio-lg radio-outline">
-                        <input type="radio" name="nilai" value="4" />
-                        <span></span>
-                        4
-                    </label>
-                </div>
-                            </div>
-                            
-                        </div>`;
-        parent.insertAdjacentHTML('beforeend', child);
+                }
+            });
+        <?php endif ?>
     }
 </script>
+
 <!--end::Page Scripts-->
 </body>
 

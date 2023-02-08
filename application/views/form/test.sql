@@ -1,19 +1,34 @@
-INSERT INTO "t_detailsptbphtb" ("t_idspt", 
-"t_nikwppembeli", "t_namawppembeli", "t_alamatwppembeli", 
-"provinsipembeli", "t_kecamatanwppembeli", "t_kelurahanwppembeli", 
-"t_kabkotawppembeli", "t_telponwppembeli", "t_kodeposwppembeli", 
-"t_npwpwppembeli", "t_rwwppembeli", "t_rtwppembeli", "t_nikwppenjual", 
-"t_namawppenjual", "provinsipenjual", "t_kecamatanwppenjual", 
-"t_kelurahanwppenjual", "t_kabkotawppenjual", "t_rwwppenjual", 
-"t_rtwppenjual", "t_telponwppenjual", "t_kodeposwppenjual",
- "t_npwpwppenjual", "t_alamatwppenjual", "t_luastanah", 
- "t_njoptanah", "t_luasbangunan", "t_njopbangunan", "t_totalnjoptanah", 
- "t_totalnjopbangunan", "t_luastanah_sppt", "t_njoptanah_sppt", "t_luasbangunan_sppt", 
- "t_njopbangunan_sppt", "t_totalnjoptanah_sppt", "t_totalnjopbangunan_sppt", 
- "t_grandtotalnjop", "t_nosertifikathaktanah", "t_tglajb", "t_tglajbbaru", 
- "t_noajbbaru", "t_kelurahanop", "t_kecamatanop", "t_ketwaris", "t_terbukti", 
- "t_alamatop", "t_rtop", "t_rwop", "t_namasppt", "t_kabupatenop", "t_namasertifikat")
-  VALUES (7, '7403347112680005', 'SARNA, S.PD', 'DESA LANOBAKE', '74', '7402112', '7402112003',
-   '7402', '', '', '__.___.___._-___.___', '000', '000', '123456789', 'LA HADI', '74', '7409120', '7409120006', 
-   '7409', '000', '000', '', '', '0_.___.___._-___.___', 'JLN KERATON', '11500', '7150', '', '', '82225000', '0', '', '', '', '', '0', '0', '82225000', '00570', '2011-11-15', '1970-01-01', '', 
-'LIPU', 'KULISUSU', '', NULL, 'KADACUA', '000', '000', 'SARNAA', 'BUTON UTARA', 'LA HADI')
+01 Pemda 
+02 Sekretariat Daerah 
+03 Sekretariat DPRD 
+04 Inspektorat Daerah 
+05 Dinas Pendidikan Satu Pintu
+06 Dinas Kesehatan 
+07 Dinas Pekerjaan Umum dan Penataan Ruang 
+08 Dinas Perumahan Rakyat dan Kawasan Permukiman 
+09 Satuan Polisi Pamong Praja 
+10 Dinas Sosial
+11 Dinas Ketenagakerjaan
+12 Dinas Pemberdayaan Perempuan dan Perlindungan Anak 
+13 Dinas Ketahanan Pangan
+14 Dinas Lingkungan Hidup 
+15 Dinas Kependudukan dan Pencatatan Sipil
+16 Dinas Pemberdayaan Masyarakat dan Desa 
+17 Dinas Pengendalian Penduduk dan Keluarga Berencana 
+18 Dinas Perhubungan
+19 Dinas Komunikasi dan Informatika
+20 Dinas Perdagangan dan Koperasi Usaha Kecil Menengah
+21 Dinas Penanaman Modal dan Pelayanan Perizinan Terpadu
+22 Dinas Pariwisata
+23 Dinas Pemuda dan Olah Raga
+24 Dinas Perindustrian
+25 Dinas Perpustakaan dan kearsipan
+26 Dinas Pertanian
+27 Dinas Perikanan
+28 Badan Perencanaan Pembangunan Daerah
+29 Badan Pengelolaan keuangan, Pendapatan an Aset Daerah
+30 Badan Kepegawaian Daerah
+31 BadanPenanggulangan Bencana Daerah
+32 Kantor Kesatuan Bangsa dan Politik
+33 RSUD
+99 Lainnya

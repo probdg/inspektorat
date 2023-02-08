@@ -14,7 +14,7 @@
                     <div class="form-group row validated" id="cek_label">
                         <label for="nama_periode" class="col-4 col-form-label">Nama Periode</label>
                         <div class="col-8">
-                            <input name="nama_periode" type="text" class='form-control' placeholder="Masukan Nama Periode" style="width: 100%;" required>
+                            <input name="nama_periode" type="text" class='form-control ' placeholder="Masukan Nama Periode" style="width: 100%;" required>
                         </div>
                     </div>
 

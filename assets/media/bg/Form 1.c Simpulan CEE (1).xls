@@ -1,0 +1,122 @@
+     <link href="http://localhost/inspektorat/assets/table.css" rel="stylesheet" type="text/css" />
+
+    <h4 style="text-align: center">
+        Simpulan Survei Persepsi atas <span style="color:red"> Lingkungan Pengendalian Intern</span>
+        <br>
+
+        di Pemerintah Daerah Kabupaten Sumedang    </h4>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th rowspan="2" width="10">No.</th>
+                <th rowspan="2">Sub Unsur</th>
+                <th colspan="2">Hasil Reviu Dokumen</th>
+                <th colspan="2">Hasil Survei Persepsi</th>
+                <th rowspan="2" width="80">Simpulan</th>
+                <th rowspan="2">Penjelasan</th>
+            </tr>
+            <tr>
+                <th width="40">Hasil</th>
+                <th>Uraian</th>
+                <th width="40">Hasil</th>
+                <th>Uraian</th>
+            </tr>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+                <th>g</th>
+                <th>h</th>
+            </tr>
+        </thead>
+        <tbody>
+
+                                            <tr>
+                    <td valign="top" rowspan="2">1</td>
+                    <td valign="top" rowspan="2">PENEGAKAN INTEGRITAS DAN NILAI ETIKA</td>
+                    <td valign="top" align="center">4</td>
+                    <td valign="top">Penegakan integritas dan nilai etika telah diperbaiki secara berkelanjutan sehingga tercipta suasana kerja organisasi yang kondusif yang dapat mendorong kinerja para pegawai secara optimal</td>
+                    <td valign="middle" align="center" rowspan="2">2</td>
+                    <td valign="middle" align="center" rowspan="2">Kurang Memadai</td>
+                    <td valign="middle" align="center" rowspan="2">Selaras; Memadai</td>
+                    <td valign="middle" rowspan="2">Dokumen yang tersedia selaras dengan persepsi dari responden</td>
+                </tr>
+                                    <tr>
+                        <td valign="top" align="center">4</td>
+                        <td valign="top">Kebijakan antikorupsi menjangkau semua kegiatan dan terevaluasi terus-menerus oleh struktur pengelola risiko korupsi yang bekerja efektif dengan kewenangan dan tanggung jawab yang memadai sehingga pengembangan kebijakan antikorupsi yang berkelanjutan benar-benar dilakukan.</td>
+                    </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">2</td>
+                    <td valign="top" rowspan="1">KOMITMEN TERHADAP KOMPETENSI</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">3</td>
+                    <td valign="middle" align="center" rowspan="1">Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">3</td>
+                    <td valign="top" rowspan="1">KEPEMIMPINAN YANG KONDUSIF</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">3</td>
+                    <td valign="middle" align="center" rowspan="1">Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">4</td>
+                    <td valign="top" rowspan="1">PEMBENTUKAN STRUKTUR ORGANISASI YANG SESUAI DENGAN KEBUTUHAN</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">3</td>
+                    <td valign="middle" align="center" rowspan="1">Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">5</td>
+                    <td valign="top" rowspan="1">PENDELEGASIAN WEWENANG DAN TANGGUNG JAWAB YANG TEPAT</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">2</td>
+                    <td valign="middle" align="center" rowspan="1">Kurang Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">6</td>
+                    <td valign="top" rowspan="1">PENYUSUNAN DAN PENERAPAN KEBIJAKAN YANG SEHAT TENTANG PEMBINAAN SUMBER DAYA MANUSIA</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">2</td>
+                    <td valign="middle" align="center" rowspan="1">Kurang Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">7</td>
+                    <td valign="top" rowspan="1">PERWUJUDAN PERAN APARAT PENGAWASAN INTERN PEMERINTAH YANG EFEKTIF</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">3</td>
+                    <td valign="middle" align="center" rowspan="1">Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                                            <tr>
+                    <td valign="top" rowspan="1">8</td>
+                    <td valign="top" rowspan="1">HUBUNGAN KERJA YANG BAIK DENGAN INSTANSI PEMERINTAH TERKAIT</td>
+                    <td valign="top" align="center"></td>
+                    <td valign="top"></td>
+                    <td valign="middle" align="center" rowspan="1">2</td>
+                    <td valign="middle" align="center" rowspan="1">Kurang Memadai</td>
+                    <td valign="middle" align="center" rowspan="1"></td>
+                    <td valign="middle" rowspan="1"></td>
+                </tr>
+                                    </tbody>
+    </table>

@@ -1,6 +1,7 @@
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
 <script>
     /**
      * ---------------------------------------
@@ -20,9 +21,9 @@
 
     // Set themes
     // https://www.amcharts.com/docs/v5/concepts/themes/
-    root.setThemes([
-        am5themes_Animated.new(root)
-    ]);
+    // root.setThemes([
+    //     am5themes_Animated.new(root)
+    // ]);
 
     // Create chart
     // https://www.amcharts.com/docs/v5/charts/xy-chart/
@@ -127,7 +128,7 @@
                 populateText: true,
                 centerX: am5.p50,
                 centerY: am5.p50,
-                fontSize: 10,
+                fontSize: 15,
                 text: "{value}"
             })
         });
@@ -137,8 +138,8 @@
         SangatSignifikan: am5.color(0xca0101),
         Signifikan: am5.color(0xe17a2d),
         Moderat: am5.color(0xe1d92d),
-        Minor: am5.color(0x5dbe24),
-        veryMinor: am5.color(0x0b7d03)
+        Minor: am5.color(0x0b7d03),
+        veryMinor: am5.color('#000000')
     };
 
     // Set data
@@ -149,7 +150,7 @@
             columnSettings: {
                 fill: colors.Moderat
             },
-            value: 20
+            value: 9 //9
         },
         {
             y: "Signifikan",
@@ -157,7 +158,7 @@
             columnSettings: {
                 fill: colors.Minor
             },
-            value: 15
+            value: 6 //6
         },
         {
             y: "Moderat",
@@ -165,23 +166,23 @@
             columnSettings: {
                 fill: colors.Minor
             },
-            value: 25
+            value: 4 //4 
         },
         {
             y: "Minor",
             x: "Tidak Signifikan",
             columnSettings: {
-                fill: colors.Minor
+                fill: colors.veryMinor
             },
-            value: 15
+            value: 2 //2
         },
         {
             y: "Tidak Signifikan",
             x: "Tidak Signifikan",
             columnSettings: {
-                fill: colors.Minor
+                fill: colors.veryMinor
             },
-            value: 12
+            value: 1 //1
         },
         {
             y: "Sangat Signifikan",
@@ -189,7 +190,7 @@
             columnSettings: {
                 fill: colors.Signifikan
             },
-            value: 30
+            value: 16 //
         },
         {
             y: "Signifikan",
@@ -197,15 +198,15 @@
             columnSettings: {
                 fill: colors.Moderat
             },
-            value: 24
+            value: 13 //13
         },
         {
             y: "Moderat",
             x: "Minor",
             columnSettings: {
-                fill: colors.Minor
+                fill: colors.Moderat
             },
-            value: 25
+            value: 11 //11
         },
         {
             y: "Minor",
@@ -213,15 +214,15 @@
             columnSettings: {
                 fill: colors.Minor
             },
-            value: 15
+            value: 7 //7
         },
         {
             y: "Tidak Signifikan",
             x: "Minor",
             columnSettings: {
-                fill: colors.Minor
+                fill: colors.veryMinor
             },
-            value: 25
+            value: 3 //3
         },
         {
             y: "Sangat Signifikan",
@@ -229,7 +230,7 @@
             columnSettings: {
                 fill: colors.Signifikan
             },
-            value: 33
+            value: 20 //20
         },
         {
             y: "Signifikan",
@@ -237,7 +238,7 @@
             columnSettings: {
                 fill: colors.Signifikan
             },
-            value: 14
+            value: 18 //18
         },
         {
             y: "Moderat",
@@ -245,15 +246,15 @@
             columnSettings: {
                 fill: colors.Moderat
             },
-            value: 20
+            value: 15 //15
         },
         {
             y: "Minor",
             x: "Moderat",
             columnSettings: {
-                fill: colors.Minor
+                fill: colors.Moderat
             },
-            value: 19
+            value: 12 //12
         },
         {
             y: "Tidak Signifikan",
@@ -261,7 +262,7 @@
             columnSettings: {
                 fill: colors.Minor
             },
-            value: 25
+            value: 5 //5
         },
         {
             y: "Sangat Signifikan",
@@ -275,7 +276,7 @@
             y: "Signifikan",
             x: "Signifikan",
             columnSettings: {
-                fill: colors.SangatSignifikan
+                fill: colors.Signifikan
             },
             value: 24
         },
@@ -285,7 +286,7 @@
             columnSettings: {
                 fill: colors.Signifikan
             },
-            value: 25
+            value: 23 //23
         },
         {
             y: "Minor",
@@ -293,7 +294,7 @@
             columnSettings: {
                 fill: colors.Moderat
             },
-            value: 15
+            value: 22 //22
         },
         {
             y: "Tidak Signifikan",
@@ -301,7 +302,7 @@
             columnSettings: {
                 fill: colors.Minor
             },
-            value: 15
+            value: 19 //19
         },
         {
             y: "Sangat Signifikan",
@@ -309,39 +310,35 @@
             columnSettings: {
                 fill: colors.SangatSignifikan
             },
-            value: 12
-        },
-        {
+            value: 25 // 25
+        }, {
             y: "Signifikan",
             x: "Sangat Signifikan",
             columnSettings: {
                 fill: colors.SangatSignifikan
             },
-            value: 14
-        },
-        {
+            value: 24 //24
+        }, {
             y: "Moderat",
             x: "Sangat Signifikan",
             columnSettings: {
-                fill: colors.SangatSignifikan
+                fill: colors.Signifikan
             },
-            value: 15
-        },
-        {
+            value: 21 //21
+        }, {
             y: "Minor",
             x: "Sangat Signifikan",
             columnSettings: {
                 fill: colors.Signifikan
             },
-            value: 25
-        },
-        {
+            value: 17 //17
+        }, {
             y: "Tidak Signifikan",
             x: "Sangat Signifikan",
             columnSettings: {
                 fill: colors.Moderat
             },
-            value: 19
+            value: 10 //10
         }
     ];
 

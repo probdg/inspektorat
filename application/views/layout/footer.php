@@ -70,6 +70,7 @@
 <script src="assets/js/pages/crud/datatables/extensions/responsive.min.js"></script>
 <!--end::Global Theme Bundle-->
 
+
 <!--begin::Page Vendors(used by this page)-->
 <script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
 <!--end::Page Vendors-->
@@ -78,6 +79,7 @@
 <script src="assets/js/pages/widgets.js"></script>
 <script src="assets/js/sweetalert.min.js"></script>
 <script src="assets/js/numeral.js"></script>
+
 <?php if (isset($js)) : ?>
     <?php $this->load->view($js); ?>
 <?php endif ?>

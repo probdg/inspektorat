@@ -1,0 +1,37 @@
+        thead th,
+        thead td {
+            background-color: #eeece1;
+            vertical-align: middle !important;
+            text-align: center;
+            border: 1px solid #000000;
+        }
+
+        tr.group,
+        tr.group:hover {
+            background-color: #ddd !important;
+        }
+
+        table,
+        tbody th,
+        tbody td {
+            border: 1px solid;
+            padding: 5px;
+        }
+
+        table {
+            font-family: Arial,
+                sans-serif;
+            border-collapse: collapse;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-red {
+            color: red;
+        }
+
+        ol {
+            padding: 25px !important;
+        }

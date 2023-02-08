@@ -1,0 +1,42 @@
+Form 1b
+1	:	Tidak Setuju/Belum ada/ belum dibangun
+2	:	Kurang Setuju/Telah dibangun/diterapkan, akan tetapi belum konsisten
+3	:	Setuju/Sudah dibangun atau diterapkan dengan baik, tapi masih bisa ditingkatkan
+4	:	Sangat Setuju/Sudah dibangun atau diterapkan dengan baik dan dapat ditularkan ke organisasi lain
+
+Form strategis pemda 
+- input komite
+- di buat opsi , saling terkait dari tujuan -> sasaran -> IKU
+
+Form strategis OPD
+- input unit pengelola 
+- download format
+- upload xls
+
+Form 3A , 3B
+- tambah field per tujuan/sasaran
+
+3B, 3C
+- indikator kinerja ambil dari data form 2b
+
+Form 5
+Opsi sortir input numeric, rentang bawah
+
+form 8, 9
+tambah resiko dan kode resiko
+
+form 10,
+tambah skala dampak, skala kemungkinana, skala resiko
+penambahan masalah / resiko baru dihilangkan dulu
+
+
+1: Hasil Survey
+2: Penetapan kontek
+3: Identifikasi risiko
+4: Analisis Risiko
+5: Risiko prioritas
+6: Monitoring & Evaluasi
+7: Informasi komunikasi
+8: Monitoring & Evaluasi lanjutan
+9: Residual risiko
+

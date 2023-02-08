@@ -1,0 +1,3151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://abadikacasumedang.com/assets/css/font/a11/a11.css" />
+    <!-- css styling nota -->
+    <link rel="stylesheet" href="https://abadikacasumedang.com/assets/bootstrap/css/bootstrap.min.css" />
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1 solid black;
+
+        }
+
+        th,
+        td {
+            border: 3 solid black;
+        }
+
+        hr {
+            border-style: double;
+        }
+    </style>
+    </head>
+
+<body>
+    <div class="content">
+        <div class="row" style="margin-left: 10px;">
+            <div class="col-xs-12" style="margin-top:10px;">
+                <h4>Abadi Kaca</h4>
+            </div>
+            <div class="col-xs-4">
+                <p>
+                    <span>Jl.Prabu Gajah Agung By Pass Sumedang                        <br> Telp. 085220171993 - 081320476050 - 081321345266</span>
+
+                </p>
+            </div>
+            <div class="col-xs-8">
+
+            </div>
+        </div>
+        <table style="width: 100%;padding:10px;font-size:small">
+            <tr style="border-top:1.4px solid black; border-bottom:1.4px solid black;">
+                <td align="center">No Faktur</td>
+                <td align="center">Kode</td>
+                <td align="center">Nama Barang</td>
+                <td align="center">Jumlah</td>
+                <td align="center">Harga</td>
+                <td align="center">Diskon</td>
+                <td align="center">Keuntungan</td>
+            </tr>
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00022</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">3 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">48774</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00024</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">45708</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00023</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">3 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">69681</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">4 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">103228</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">45708</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">7 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">796789</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">94762</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS24</td>
+                    <td align="center">MULIA POLOS 10 mm 305 x 214 6.5044 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">1683014</td>
+                    <td align="center">0</td>
+                    <td align="center">187002</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">13 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">217399</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00025</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">19510</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-UTM-00027</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-UTM-00028</td>
+                    <td align="center">RIBEN11</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">209031</td>
+                    <td align="center">0</td>
+                    <td align="center">23226</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">8 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">185072</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">3 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">77421</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">50170</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">3 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">99642</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">3 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">48774</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00029</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">33446</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00031</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">15 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">250845</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">6 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">284286</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">1 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">25807</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">25085</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00030</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">16723</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00032</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">1 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">25807</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00033</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00034</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00035</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">3 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">75255</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">ES4</td>
+                    <td align="center">ASAHI ES 5 mm 122 x 214 2.6013</td>
+                    <td align="center">1 </td>
+                    <td align="center">365626</td>
+                    <td align="center">0</td>
+                    <td align="center">40625</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">16258</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">ES3</td>
+                    <td align="center">MULIA ES 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">702340</td>
+                    <td align="center">0</td>
+                    <td align="center">78038</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00036</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">58530</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00038</td>
+                    <td align="center">CERMIN2</td>
+                    <td align="center">MULIA CERMIN 2 mm 92 x 122 1.1148</td>
+                    <td align="center">1 </td>
+                    <td align="center">86536</td>
+                    <td align="center">0</td>
+                    <td align="center">9615</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00039</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">3 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">75255</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00040</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00042</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">5 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">97550</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00042</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">58530</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00042</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">7 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">180649</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00042</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00042</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">45708</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00041</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">3 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">50169</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00045</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00046</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">5 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">114270</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00047</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">22854</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00048</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">22854</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">5 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">97550</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">4 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">103228</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">16 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">260128</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS16</td>
+                    <td align="center">MULIA POLOS 12 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">2122061</td>
+                    <td align="center">0</td>
+                    <td align="center">235785</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">5 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">104520</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">RIBEN4</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                    <td align="center">6 </td>
+                    <td align="center">255482</td>
+                    <td align="center">0</td>
+                    <td align="center">170322</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">3 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">99642</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">3 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">69402</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">25085</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00049</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00051</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00051</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00052</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00053</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00054</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">7 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">161938</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00055</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">7 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">162589</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00056</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00057</td>
+                    <td align="center">RIBEN4</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                    <td align="center">1 </td>
+                    <td align="center">255482</td>
+                    <td align="center">0</td>
+                    <td align="center">28387</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00057</td>
+                    <td align="center">POLOS4</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645</td>
+                    <td align="center">1 </td>
+                    <td align="center">232257</td>
+                    <td align="center">0</td>
+                    <td align="center">25807</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">6 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">138804</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">16 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">342704</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">6 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">97548</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">113827</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">18 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">351180</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">RIBEN3</td>
+                    <td align="center">MULIA RIBEN 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">229940</td>
+                    <td align="center">0</td>
+                    <td align="center">25549</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">58530</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">33446</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00059</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">41808</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00058</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00062</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">113827</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">4 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">92536</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS23</td>
+                    <td align="center">ASAHI POLOS 5 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">621984</td>
+                    <td align="center">0</td>
+                    <td align="center">138220</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">6 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">128514</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">41808</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">RIBEN4</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                    <td align="center">1 </td>
+                    <td align="center">255482</td>
+                    <td align="center">0</td>
+                    <td align="center">28387</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">16723</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">25085</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00060</td>
+                    <td align="center">BROWN2</td>
+                    <td align="center">MULIA BROWN 5 mm 330 x 214 7.0451</td>
+                    <td align="center">1 </td>
+                    <td align="center">1902177</td>
+                    <td align="center">0</td>
+                    <td align="center">211353</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00063</td>
+                    <td align="center">POLOS23</td>
+                    <td align="center">ASAHI POLOS 5 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">621984</td>
+                    <td align="center">0</td>
+                    <td align="center">138220</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00063</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00064</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00065</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">5 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">81290</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00067</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">4 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">92536</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00069</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">16258</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00070</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00071</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00071</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00071</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00071</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00073</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">92908</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00073</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">41808</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">113827</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00074</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">3 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">69402</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00076</td>
+                    <td align="center">CERMIN2</td>
+                    <td align="center">MULIA CERMIN 2 mm 92 x 122 1.1148</td>
+                    <td align="center">2 </td>
+                    <td align="center">86536</td>
+                    <td align="center">0</td>
+                    <td align="center">19230</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00077</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">4 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">85676</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00078</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">42838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00078</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00079</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">41808</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">16258</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">42838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">39020</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00080</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">16723</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00082</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">10 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">209040</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00082</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">6 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">115668</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00082</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">10 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">167230</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00082</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">10 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">162580</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00084</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00081</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00085</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">4 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">77112</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00085</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">50170</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">3 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">69402</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">6 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">568560</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">107095</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">39020</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS1</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">146325</td>
+                    <td align="center">0</td>
+                    <td align="center">32516</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">9 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">133785</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00086</td>
+                    <td align="center">POLOS24</td>
+                    <td align="center">MULIA POLOS 10 mm 305 x 214 6.5044 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">1683014</td>
+                    <td align="center">0</td>
+                    <td align="center">187002</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00088</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">66892</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">5 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">146325</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">29730</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00087</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">227654</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00089</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">10 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">192780</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">4 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">117060</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">44595</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">6 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">100338</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">6 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">284286</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00090</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">19 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">370690</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00092</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00094</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">19510</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00093</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00095</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">21419</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00097</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00097</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">23227</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">94762</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">6 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">128514</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">175589</td>
+                    <td align="center">0</td>
+                    <td align="center">39020</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">4 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">117060</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">ES3</td>
+                    <td align="center">MULIA ES 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">702340</td>
+                    <td align="center">0</td>
+                    <td align="center">156076</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">29730</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">33446</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">3 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">284280</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00098</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00100</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">57834</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00102</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00103</td>
+                    <td align="center">POLOS24</td>
+                    <td align="center">MULIA POLOS 10 mm 305 x 214 6.5044 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">1683014</td>
+                    <td align="center">0</td>
+                    <td align="center">187002</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00103</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00103</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00103</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00103</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00107</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00106</td>
+                    <td align="center">CERMIN2</td>
+                    <td align="center">MULIA CERMIN 2 mm 92 x 122 1.1148</td>
+                    <td align="center">2 </td>
+                    <td align="center">86536</td>
+                    <td align="center">0</td>
+                    <td align="center">19230</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00106</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00106</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">92908</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">6 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">128514</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">5 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">104520</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">RIBEN2</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">205689</td>
+                    <td align="center">0</td>
+                    <td align="center">22854</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">RIBEN4</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                    <td align="center">2 </td>
+                    <td align="center">255482</td>
+                    <td align="center">0</td>
+                    <td align="center">56774</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">RIBEN8</td>
+                    <td align="center">MULIA RIBEN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">3 </td>
+                    <td align="center">461537</td>
+                    <td align="center">0</td>
+                    <td align="center">153846</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">11 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">163515</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">227654</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">ES4</td>
+                    <td align="center">ASAHI ES 5 mm 122 x 214 2.6013</td>
+                    <td align="center">1 </td>
+                    <td align="center">365626</td>
+                    <td align="center">0</td>
+                    <td align="center">40625</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00108</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00110</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">107095</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00111</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00112</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00113</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00114</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">4 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">77112</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00114</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">42838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">189520</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">83616</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">DARK-BLUE1</td>
+                    <td align="center">ASAHI DARK BLUE 5 mm 122 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">752507</td>
+                    <td align="center">0</td>
+                    <td align="center">83612</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">ES3</td>
+                    <td align="center">MULIA ES 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">702340</td>
+                    <td align="center">0</td>
+                    <td align="center">78038</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00115</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">21419</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00117</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">4 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">92536</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">3 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">53514</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">44595</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00118</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">92908</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">8 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">234120</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">17838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">64257</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">29730</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">RIBEN8</td>
+                    <td align="center">MULIA RIBEN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">461537</td>
+                    <td align="center">0</td>
+                    <td align="center">102564</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00119</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00121</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00121</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">17838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00122</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">19278</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">4 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">71352</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">2 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">94762</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN9</td>
+                    <td align="center">MULIA RIBEN 8 mm  305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">1939125</td>
+                    <td align="center">0</td>
+                    <td align="center">430918</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">8 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">167232</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN11</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">209031</td>
+                    <td align="center">0</td>
+                    <td align="center">23226</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN4</td>
+                    <td align="center">MULIA RIBEN 5 mm 102 x 203 2.0645</td>
+                    <td align="center">5 </td>
+                    <td align="center">255482</td>
+                    <td align="center">0</td>
+                    <td align="center">141935</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">7 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">175595</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN3</td>
+                    <td align="center">MULIA RIBEN 5 mm 92 x 203 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">229940</td>
+                    <td align="center">0</td>
+                    <td align="center">25549</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN10</td>
+                    <td align="center">MULIA RIBEN 5 mm 92 x 203 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">41808</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">RIBEN8</td>
+                    <td align="center">MULIA RIBEN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">461537</td>
+                    <td align="center">0</td>
+                    <td align="center">51282</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00123</td>
+                    <td align="center">CERMIN2</td>
+                    <td align="center">MULIA CERMIN 2 mm 92 x 122 1.1148</td>
+                    <td align="center">1 </td>
+                    <td align="center">86536</td>
+                    <td align="center">0</td>
+                    <td align="center">9615</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00125</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00126</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00126</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">29265</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00127</td>
+                    <td align="center">RIBEN5</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 152 1.8581</td>
+                    <td align="center">1 </td>
+                    <td align="center">188133</td>
+                    <td align="center">0</td>
+                    <td align="center">20904</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">46454</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">CERMIN-BROWN1</td>
+                    <td align="center">MULIA CERMIN BROWN 5 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">2268410</td>
+                    <td align="center">0</td>
+                    <td align="center">252046</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">4 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">92536</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">5 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">146325</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00128</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">21419</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00127</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00130</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00130</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">74325</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">CERMIN4</td>
+                    <td align="center">MULIA CERMIN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">852841</td>
+                    <td align="center">0</td>
+                    <td align="center">94760</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">3 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">64257</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">3 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">142143</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">RIBEN8</td>
+                    <td align="center">MULIA RIBEN 5 mm 244 x 183 4.4593</td>
+                    <td align="center">4 </td>
+                    <td align="center">461537</td>
+                    <td align="center">0</td>
+                    <td align="center">205128</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">5 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">96390</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">9 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">133785</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">4 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">66892</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">3 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">69681</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">1 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">146349</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00131</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00133</td>
+                    <td align="center">POLOS26</td>
+                    <td align="center">MULIA POLOS 5 mm 102 x 203 2.0645 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">192772</td>
+                    <td align="center">0</td>
+                    <td align="center">42838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00133</td>
+                    <td align="center">POLOS30</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00135</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">47381</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00135</td>
+                    <td align="center">DARK-BLUE1</td>
+                    <td align="center">ASAHI DARK BLUE 5 mm 244 x 183 4.4593</td>
+                    <td align="center">1 </td>
+                    <td align="center">752507</td>
+                    <td align="center">0</td>
+                    <td align="center">83612</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">10 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">192780</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">2 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">46268</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS12</td>
+                    <td align="center">MULIA POLOS 6 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">1024443</td>
+                    <td align="center">0</td>
+                    <td align="center">227654</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">58530</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">17838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">1 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">14865</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS14</td>
+                    <td align="center">MULIA POLOS 8 mm 305 x 214 6.5044</td>
+                    <td align="center">2 </td>
+                    <td align="center">1317141</td>
+                    <td align="center">0</td>
+                    <td align="center">292698</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS3</td>
+                    <td align="center">MULIA POLOS 5 mm 92 x 203 1.8581</td>
+                    <td align="center">6 </td>
+                    <td align="center">209037</td>
+                    <td align="center">0</td>
+                    <td align="center">139362</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00136</td>
+                    <td align="center">POLOS9</td>
+                    <td align="center">MULIA POLOS 5 mm 244 x 183 4.4593</td>
+                    <td align="center">3 </td>
+                    <td align="center">426422</td>
+                    <td align="center">0</td>
+                    <td align="center">142143</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">CERMIN3</td>
+                    <td align="center">MULIA CERMIN 3 mm 122 x 183 2.2297</td>
+                    <td align="center">2 </td>
+                    <td align="center">263383</td>
+                    <td align="center">0</td>
+                    <td align="center">58530</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">POLOS18</td>
+                    <td align="center">MULIA POLOS 3 mm  122 x 183 2.2297</td>
+                    <td align="center">1 </td>
+                    <td align="center">160539</td>
+                    <td align="center">0</td>
+                    <td align="center">17838</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">POLOS28</td>
+                    <td align="center">MULIA POLOS 3 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">133783</td>
+                    <td align="center">0</td>
+                    <td align="center">29730</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">RIBEN7</td>
+                    <td align="center">MULIA RIBEN 5 mm 132 x 183 2.4155</td>
+                    <td align="center">1 </td>
+                    <td align="center">298919</td>
+                    <td align="center">0</td>
+                    <td align="center">33214</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">POLOS22</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 152 1.8581 (2)</td>
+                    <td align="center">2 </td>
+                    <td align="center">173500</td>
+                    <td align="center">0</td>
+                    <td align="center">38556</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">RIBEN6</td>
+                    <td align="center">MULIA RIBEN 5 mm 122 x 183 2.2297</td>
+                    <td align="center">3 </td>
+                    <td align="center">225758</td>
+                    <td align="center">0</td>
+                    <td align="center">75255</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">RIBEN1</td>
+                    <td align="center">MULIA RIBEN 3 mm 122 x 152 1.8581</td>
+                    <td align="center">2 </td>
+                    <td align="center">150506</td>
+                    <td align="center">0</td>
+                    <td align="center">33446</td>
+                </tr>
+
+                            <tr style="font-size:small">
+                    <td align="center">PNJKC-TOKO1-00137</td>
+                    <td align="center">POLOS19</td>
+                    <td align="center">MULIA POLOS 5 mm 122 x 183 2.229</td>
+                    <td align="center">1 </td>
+                    <td align="center">208199</td>
+                    <td align="center">0</td>
+                    <td align="center">23134</td>
+                </tr>
+
+                        <tr style="border-top:1.4px solid black; border-bottom:1.4px solid black;">
+                <td> Jumlah Faktur </td>
+                <td> 310</td>
+                <td colspan="4"> Ringkasan Keuntungan </td>
+                <td align="right">25222955</td>
+            </tr>
+        </table>
+    </div>
